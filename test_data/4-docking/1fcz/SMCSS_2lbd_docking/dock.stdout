@@ -1,0 +1,49 @@
+***********************************************
+The rDock program is licensed under GNU-LGPLv3.0. http://rdock.sourceforge.net/
+Executable:	rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+Library:	libRbt.so/2013.1/901 2013/11/27
+RBT_ROOT:	/home/j5wagner/env_00/source/rDock/rDock_2013.1_src/
+RBT_HOME:	/home/j5wagner
+Current dir:	/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/test_data/4-docking/1fcz/SMCSS_2lbd_docking
+Date:		Fri Oct 21 02:16:04 2016
+***********************************************
+
+
+Command line args:
+ -i /extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/test_data/4-docking/1fcz/lig_156_tech_prep/lig_156_prepared.sdf
+ -r /extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/test_data/4-docking/1fcz/SMCSS_2lbd_tech_prep/rDockGridGenInput.prm
+ -p dock.prm
+ -o output
+ -n 50
+Reading polar hydrogens only from ligand SD file
+
+DOCKING PROTOCOL:
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+Free docking (indexed VDW)
+
+RECEPTOR:
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/test_data/4-docking/1fcz/SMCSS_2lbd_tech_prep/rDockGridGenInput.prm
+tech_prep
+
+DOCKING SITE
+Total volume 1272.25 A^3
+Cavity #1	Size=10178 points; Vol=1272.25 A^3; Min=(28,7.5,75); Max=(48.5,28,96); Center=(37.8541,17.2515,84.609); Extent=(20.5,20.5,21)
+
+
+No solvent
+
+------------- Terminate filter 0------------
+
+if (SCORE.NRUNS - 49 ) > 0 then
+	0.0 
+else
+	-1.0 
+end
+
+
+**************************************************
+RECORD #1
+NAME:   Undefined variant
+RANDOM_NUMBER_SEED:           1477041364
+
+END OF RUN

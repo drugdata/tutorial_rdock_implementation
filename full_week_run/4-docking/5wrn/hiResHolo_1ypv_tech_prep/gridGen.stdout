@@ -1,0 +1,35 @@
+***********************************************
+The rDock program is licensed under GNU-LGPLv3.0. http://rdock.sourceforge.net/
+Executable:	rbcavity ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbcavity.cxx#3 $)
+Library:	libRbt.so/2013.1/901 2013/11/27
+RBT_ROOT:	/home/j5wagner/env_00/source/rDock/rDock_2013.1_src/
+RBT_HOME:	/home/j5wagner
+Current dir:	/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5wrn/hiResHolo_1ypv_tech_prep
+Date:		Mon Dec 12 10:26:00 2016
+***********************************************
+
+Command line arguments:
+-r rDockGridGenInput.prm
+-was
+-d
+
+MAPPER
+CENTER	(-0.137,4.232,15.159)
+CLASS	RbtSphereSiteMapper
+ENABLED	TRUE
+GRIDSTEP	0.5
+LARGE_SPHERE	4
+MAX_CAVITIES	1
+MIN_VOLUME	100
+NAME	MAPPER
+RADIUS	15.0
+SMALL_SPHERE	1.0
+TRACE	0
+VOL_INCR	0.0
+
+
+DOCKING SITE
+Total volume 1814.88 A^3
+Cavity #1	Size=14519 points; Vol=1814.88 A^3; Min=(-12,-10,1.5); Max=(14.5,18.5,24.5); Center=(2.69919,4.30546,12.0472); Extent=(26.5,28.5,23)
+
+Cav = 14519; total = 14519

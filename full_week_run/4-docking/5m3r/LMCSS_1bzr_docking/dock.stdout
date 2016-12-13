@@ -1,0 +1,53 @@
+***********************************************
+The rDock program is licensed under GNU-LGPLv3.0. http://rdock.sourceforge.net/
+Executable:	rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+Library:	libRbt.so/2013.1/901 2013/11/27
+RBT_ROOT:	/home/j5wagner/env_00/source/rDock/rDock_2013.1_src/
+RBT_HOME:	/home/j5wagner
+Current dir:	/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m3r/LMCSS_1bzr_docking
+Date:		Mon Dec 12 09:50:24 2016
+***********************************************
+
+
+Command line args:
+ -i /extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m3r/lig_CMO_tech_prep/lig_CMO_prepared.sdf
+ -r /extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m3r/LMCSS_1bzr_tech_prep/rDockGridGenInput.prm
+ -p dock.prm
+ -o output
+ -n 50
+Reading polar hydrogens only from ligand SD file
+
+DOCKING PROTOCOL:
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+Free docking (indexed VDW)
+
+RECEPTOR:
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m3r/LMCSS_1bzr_tech_prep/rDockGridGenInput.prm
+tech_prep
+
+DOCKING SITE
+Total volume 1961 A^3
+Cavity #1	Size=15688 points; Vol=1961 A^3; Min=(-14.5,-5,3.5); Max=(14.5,17.5,32); Center=(-2.37175,7.94435,16.8963); Extent=(29,22.5,28.5)
+
+
+No solvent
+
+------------- Terminate filter 0------------
+
+if (SCORE.NRUNS - 49 ) > 0 then
+	0.0 
+else
+	-1.0 
+end
+
+
+**************************************************
+RECORD #1
+**WARNING** RBT_MODEL_ERROR at ../src/lib/RbtMdlFileSource.cxx, line 412
+O2 makes too many bonds
+NAME:   Undefined variant
+RANDOM_NUMBER_SEED:           1481565024
+**WARNING** RBT_MODEL_ERROR at ../src/lib/RbtMdlFileSource.cxx, line 412
+O2 makes too many bonds
+
+END OF RUN

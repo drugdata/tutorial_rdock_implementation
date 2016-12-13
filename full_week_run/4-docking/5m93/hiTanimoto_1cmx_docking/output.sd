@@ -1,0 +1,7409 @@
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   19.1994   32.9663   18.2261 C   0  0  0  0  0  0
+   18.9048   33.9505   19.1846 O   0  0  0  0  0  0
+   18.9437   33.4445   16.9204 O   0  0  0  0  0  0
+   20.0398   33.0778   16.1087 C   0  0  0  0  0  0
+   19.5388   32.4618   14.7964 C   0  0  0  0  0  0
+   19.0101   31.1839   15.0263 O   0  0  0  0  0  0
+   20.9285   32.1113   16.8872 C   0  0  0  0  0  0
+   22.2794   32.2776   16.5412 O   0  0  0  0  0  0
+   20.6477   32.4952   18.3186 C   0  0  0  0  0  0
+   21.4854   33.5477   18.7313 O   0  0  0  0  0  0
+   17.9391   34.1664   19.1008 H   0  0  0  0  0  0
+   18.7244   30.8313   14.1431 H   0  0  0  0  0  0
+   22.3402   32.1140   15.5639 H   0  0  0  0  0  0
+   22.4104   33.1877   18.7450 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+174.12656008,-77.20350750,59.76589645,-173.41869565,57.10756918
+
+>  <CHROM.1>
+60.92748749,-72.16205125,-178.69547398,-58.83395020,-178.30998676,20.10352966
+32.75780161,17.07431910,1.46137729,-0.15345981,1.13514133
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+4.56785
+
+>  <SCORE.INTER>
+15.9697
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-1.11868
+
+>  <SCORE.INTER.REPUL>
+0.0612712
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+13.0668
+
+>  <SCORE.INTER.norm>
+1.59697
+
+>  <SCORE.INTRA>
+-1.75705
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.11671
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.301306
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.175705
+
+>  <SCORE.RESTR>
+0.817027
+
+>  <SCORE.RESTR.CAVITY>
+0.817027
+
+>  <SCORE.RESTR.norm>
+0.0817027
+
+>  <SCORE.SYSTEM>
+-10.4618
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.01001
+
+>  <SCORE.SYSTEM.POLAR>
+-3.00104
+
+>  <SCORE.SYSTEM.VDW>
+-0.763279
+
+>  <SCORE.SYSTEM.norm>
+-1.04618
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.456785
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   27.1662   38.2024   19.6858 C   0  0  0  0  0  0
+   28.1321   37.9545   18.6960 O   0  0  0  0  0  0
+   26.5360   37.0013   20.0846 O   0  0  0  0  0  0
+   26.4683   37.0022   21.4953 C   0  0  0  0  0  0
+   25.0594   36.6056   21.9539 C   0  0  0  0  0  0
+   24.8076   35.2598   21.6523 O   0  0  0  0  0  0
+   26.8644   38.3846   22.0072 C   0  0  0  0  0  0
+   27.5230   38.2951   23.2443 O   0  0  0  0  0  0
+   27.7656   38.8904   20.9085 C   0  0  0  0  0  0
+   29.0929   38.4698   21.1123 O   0  0  0  0  0  0
+   27.6823   37.4642   17.9588 H   0  0  0  0  0  0
+   24.8418   35.1789   20.6632 H   0  0  0  0  0  0
+   26.8859   37.8613   23.8699 H   0  0  0  0  0  0
+   29.4914   38.3367   20.2130 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+174.10625807,43.05773631,-179.57355027,-177.35607886,56.44474687
+
+>  <CHROM.1>
+54.50590398,68.23629836,-62.95446445,-59.65797178,35.48588925,26.96400597
+37.56832118,21.06639190,0.27676520,-0.69791161,-1.75815846
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-17.8851
+
+>  <SCORE.INTER>
+-6.44763
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-1.01769
+
+>  <SCORE.INTER.REPUL>
+0.0261111
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-9.51803
+
+>  <SCORE.INTER.norm>
+-0.644763
+
+>  <SCORE.INTRA>
+-1.2159
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.81925
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.302477
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.722147
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.12159
+
+>  <SCORE.RESTR>
+0.0047922
+
+>  <SCORE.RESTR.CAVITY>
+0.0047922
+
+>  <SCORE.RESTR.norm>
+0.00047922
+
+>  <SCORE.SYSTEM>
+-10.2264
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.949944
+
+>  <SCORE.SYSTEM.POLAR>
+-2.93197
+
+>  <SCORE.SYSTEM.VDW>
+-0.732662
+
+>  <SCORE.SYSTEM.norm>
+-1.02264
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.78851
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.7542   25.9433   24.7791 C   0  0  0  0  0  0
+   32.9877   26.3876   25.2840 O   0  0  0  0  0  0
+   31.7239   26.0419   23.3691 O   0  0  0  0  0  0
+   31.1766   24.8400   22.8683 C   0  0  0  0  0  0
+   30.1046   25.1493   21.8158 C   0  0  0  0  0  0
+   30.2778   26.4441   21.3071 O   0  0  0  0  0  0
+   30.6122   24.0318   24.0337 C   0  0  0  0  0  0
+   30.7446   22.6529   23.8026 O   0  0  0  0  0  0
+   31.4523   24.5062   25.1932 C   0  0  0  0  0  0
+   32.6408   23.7595   25.2926 O   0  0  0  0  0  0
+   33.0817   27.3449   25.0374 H   0  0  0  0  0  0
+   29.6392   26.5411   20.5530 H   0  0  0  0  0  0
+   30.1951   22.1992   24.4938 H   0  0  0  0  0  0
+   33.2263   24.2391   25.9349 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+174.23676667,-81.32088213,-62.97425084,-172.03588430,56.69568439
+
+>  <CHROM.1>
+61.98483823,20.50178786,172.60595644,-168.35168723,56.30434567,31.37668590
+24.98773862,23.77121935,-0.66302785,-0.92197400,-0.47604281
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-0.867999
+
+>  <SCORE.INTER>
+4.8989
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-3.53234
+
+>  <SCORE.INTER.REPUL>
+0.337237
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+8.82266
+
+>  <SCORE.INTER.norm>
+0.48989
+
+>  <SCORE.INTRA>
+0.546615
+
+>  <SCORE.INTRA.DIHEDRAL>
+0.208425
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.0301781
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.545008
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.0546615
+
+>  <SCORE.RESTR>
+3.92941
+
+>  <SCORE.RESTR.CAVITY>
+3.92941
+
+>  <SCORE.RESTR.norm>
+0.392941
+
+>  <SCORE.SYSTEM>
+-10.2429
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.39823
+
+>  <SCORE.SYSTEM.POLAR>
+-3.02254
+
+>  <SCORE.SYSTEM.VDW>
+-0.665396
+
+>  <SCORE.SYSTEM.norm>
+-1.02429
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-0.0867999
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   32.0680   23.2286   24.1188 C   0  0  0  0  0  0
+   31.7955   22.2553   25.0947 O   0  0  0  0  0  0
+   30.9716   23.3779   23.2387 O   0  0  0  0  0  0
+   30.7527   24.7616   23.0596 C   0  0  0  0  0  0
+   30.5816   25.0778   21.5685 C   0  0  0  0  0  0
+   30.3413   26.4465   21.3832 O   0  0  0  0  0  0
+   31.9209   25.5292   23.6729 C   0  0  0  0  0  0
+   31.4952   26.7591   24.2006 O   0  0  0  0  0  0
+   32.4069   24.5803   24.7399 C   0  0  0  0  0  0
+   31.6965   24.7658   25.9403 O   0  0  0  0  0  0
+   32.4771   22.3538   25.8102 H   0  0  0  0  0  0
+   29.4263   26.6234   21.7258 H   0  0  0  0  0  0
+   32.3071   27.2083   24.5535 H   0  0  0  0  0  0
+   31.8512   25.7052   26.2212 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.24794202,147.01015389,61.36759699,-174.67884662,-60.81410229
+
+>  <CHROM.1>
+-165.62211241,179.00467232,-70.77075968,-178.33683404,-171.69085698,31.38632730
+24.70646539,23.73769387,0.65680554,1.18218742,-3.12366794
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+5.10604
+
+>  <SCORE.INTER>
+10.7869
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-2.48697
+
+>  <SCORE.INTER.REPUL>
+0.33577
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+11.1638
+
+>  <SCORE.INTER.norm>
+1.07869
+
+>  <SCORE.INTRA>
+-0.859344
+
+>  <SCORE.INTRA.DIHEDRAL>
+-2.81306
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.547189
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.0859344
+
+>  <SCORE.RESTR>
+3.88876
+
+>  <SCORE.RESTR.CAVITY>
+3.88876
+
+>  <SCORE.RESTR.norm>
+0.388876
+
+>  <SCORE.SYSTEM>
+-8.7103
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+2.4721
+
+>  <SCORE.SYSTEM.POLAR>
+-2.79268
+
+>  <SCORE.SYSTEM.VDW>
+-0.451247
+
+>  <SCORE.SYSTEM.norm>
+-0.87103
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.510604
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   25.5462   36.6927   20.6867 C   0  0  0  0  0  0
+   24.9309   36.6042   21.9467 O   0  0  0  0  0  0
+   24.9591   37.7196   19.9123 O   0  0  0  0  0  0
+   26.0060   38.4558   19.3149 C   0  0  0  0  0  0
+   25.7130   38.6712   17.8248 C   0  0  0  0  0  0
+   24.4728   39.3029   17.6565 O   0  0  0  0  0  0
+   27.3202   37.7110   19.5337 C   0  0  0  0  0  0
+   28.3920   38.6080   19.6708 O   0  0  0  0  0  0
+   27.0475   36.9393   20.8008 C   0  0  0  0  0  0
+   27.3366   37.7178   21.9367 O   0  0  0  0  0  0
+   23.9755   36.3798   21.7952 H   0  0  0  0  0  0
+   24.3190   39.3712   16.6779 H   0  0  0  0  0  0
+   29.2160   38.0558   19.7097 H   0  0  0  0  0  0
+   26.8299   38.5657   21.8380 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.88689377,44.27828371,60.87326901,-176.56655449,-60.81556236
+
+>  <CHROM.1>
+61.55051459,56.22251891,-177.10984550,-174.00295049,-58.17013650,26.15171165
+37.86927882,19.94573851,1.25052169,0.16129833,2.09475846
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-18.8221
+
+>  <SCORE.INTER>
+-6.94606
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.824167
+
+>  <SCORE.INTER.REPUL>
+1.5744e-05
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-10.544
+
+>  <SCORE.INTER.norm>
+-0.694606
+
+>  <SCORE.INTRA>
+-1.71945
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.37837
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.469736
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.171945
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-10.1566
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.890816
+
+>  <SCORE.SYSTEM.POLAR>
+-2.89757
+
+>  <SCORE.SYSTEM.VDW>
+-0.750223
+
+>  <SCORE.SYSTEM.norm>
+-1.01566
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.88221
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   29.9841   38.6341   21.6070 C   0  0  0  0  0  0
+   31.1799   38.0368   21.1743 O   0  0  0  0  0  0
+   28.8815   37.7826   21.3657 O   0  0  0  0  0  0
+   28.0794   37.7823   22.5282 C   0  0  0  0  0  0
+   26.6062   37.9802   22.1501 C   0  0  0  0  0  0
+   26.4603   39.1014   21.3213 O   0  0  0  0  0  0
+   28.5761   38.8755   23.4705 C   0  0  0  0  0  0
+   28.4020   38.5021   24.8131 O   0  0  0  0  0  0
+   30.0304   38.9957   23.0885 C   0  0  0  0  0  0
+   30.8160   38.0701   23.7999 O   0  0  0  0  0  0
+   31.0332   37.7183   20.2452 H   0  0  0  0  0  0
+   26.9894   38.9194   20.5010 H   0  0  0  0  0  0
+   28.6884   39.2800   25.3594 H   0  0  0  0  0  0
+   30.8029   38.3558   24.7505 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-61.79238179,44.37725550,-59.44284475,-173.11658244,56.14101231
+
+>  <CHROM.1>
+49.94272335,-51.57299791,61.26658190,-176.31312312,-179.72954980,28.92344905
+38.37090194,22.53053150,-0.16358002,0.07663409,-1.65576523
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-19.2286
+
+>  <SCORE.INTER>
+-7.48355
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-1.5069
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-8.7601
+
+>  <SCORE.INTER.norm>
+-0.748355
+
+>  <SCORE.INTRA>
+-1.87357
+
+>  <SCORE.INTRA.DIHEDRAL>
+-3.86243
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.00902058
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.0883141
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.187357
+
+>  <SCORE.RESTR>
+0.0261068
+
+>  <SCORE.RESTR.CAVITY>
+0.0261068
+
+>  <SCORE.RESTR.norm>
+0.00261068
+
+>  <SCORE.SYSTEM>
+-9.89763
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.785123
+
+>  <SCORE.SYSTEM.POLAR>
+-2.905
+
+>  <SCORE.SYSTEM.VDW>
+-0.413206
+
+>  <SCORE.SYSTEM.norm>
+-0.989763
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.92286
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   25.6626   37.7451   21.1107 C   0  0  0  0  0  0
+   24.8948   36.7021   20.5660 O   0  0  0  0  0  0
+   26.1426   37.3978   22.3944 O   0  0  0  0  0  0
+   27.5051   37.7649   22.4549 C   0  0  0  0  0  0
+   27.7880   38.5212   23.7589 C   0  0  0  0  0  0
+   29.1091   38.9902   23.7756 O   0  0  0  0  0  0
+   27.8448   38.6042   21.2260 C   0  0  0  0  0  0
+   29.1701   38.3854   20.8160 O   0  0  0  0  0  0
+   26.8391   38.1164   20.2131 C   0  0  0  0  0  0
+   27.3195   36.9827   19.5321 O   0  0  0  0  0  0
+   24.5543   37.0125   19.6864 H   0  0  0  0  0  0
+   29.6948   38.1931   23.6890 H   0  0  0  0  0  0
+   29.2917   38.8998   19.9757 H   0  0  0  0  0  0
+   28.0499   37.2954   18.9370 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+173.12826881,43.50914195,-59.35741649,-171.07805960,-61.39528133
+
+>  <CHROM.1>
+177.71397171,-174.90276677,-59.10015295,175.28967452,177.37202386,27.25922260
+37.90035215,21.55550604,2.34278178,-0.34912130,-1.74904720
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-13.491
+
+>  <SCORE.INTER>
+-1.87357
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.021408
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-8.20078
+
+>  <SCORE.INTER.norm>
+-0.187357
+
+>  <SCORE.INTRA>
+-1.73323
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.41152
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.472526
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.173323
+
+>  <SCORE.RESTR>
+0.264198
+
+>  <SCORE.RESTR.CAVITY>
+0.264198
+
+>  <SCORE.RESTR.norm>
+0.0264198
+
+>  <SCORE.SYSTEM>
+-10.1484
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.04696
+
+>  <SCORE.SYSTEM.POLAR>
+-2.91664
+
+>  <SCORE.SYSTEM.VDW>
+-0.755295
+
+>  <SCORE.SYSTEM.norm>
+-1.01484
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.3491
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   27.9350   38.7319   20.5930 C   0  0  0  0  0  0
+   29.1143   38.3149   21.2329 O   0  0  0  0  0  0
+   27.8864   38.2488   19.2651 O   0  0  0  0  0  0
+   26.5877   37.7403   19.0426 C   0  0  0  0  0  0
+   26.0409   38.2617   17.7078 C   0  0  0  0  0  0
+   25.8844   39.6541   17.7537 O   0  0  0  0  0  0
+   25.6952   38.1363   20.2159 C   0  0  0  0  0  0
+   24.7285   37.1499   20.4701 O   0  0  0  0  0  0
+   26.6870   38.2771   21.3436 C   0  0  0  0  0  0
+   26.9118   37.0392   21.9739 O   0  0  0  0  0  0
+   29.8783   38.6735   20.7096 H   0  0  0  0  0  0
+   25.1833   39.8392   18.4320 H   0  0  0  0  0  0
+   24.1448   37.1166   19.6678 H   0  0  0  0  0  0
+   27.1387   36.3911   21.2571 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+174.50814306,-77.08176072,60.15640488,-175.34060017,56.77185873
+
+>  <CHROM.1>
+59.61874067,-64.46026681,-65.01256959,-64.35803021,-59.96756719,26.75374980
+38.14475246,19.96406287,-0.99164139,-0.28491783,-1.14164390
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-15.7371
+
+>  <SCORE.INTER>
+-3.81075
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-10.2107
+
+>  <SCORE.INTER.norm>
+-0.381075
+
+>  <SCORE.INTRA>
+-1.45878
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.38248
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.732461
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.145878
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-10.4676
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.95373
+
+>  <SCORE.SYSTEM.POLAR>
+-3.00015
+
+>  <SCORE.SYSTEM.VDW>
+-0.743962
+
+>  <SCORE.SYSTEM.norm>
+-1.04676
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.57371
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.6767   26.9120   23.9852 C   0  0  0  0  0  0
+   32.9319   27.4031   24.3820 O   0  0  0  0  0  0
+   31.2828   27.4791   22.7514 O   0  0  0  0  0  0
+   30.7823   26.4355   21.9420 C   0  0  0  0  0  0
+   29.4513   26.8560   21.3062 C   0  0  0  0  0  0
+   28.6649   27.5535   22.2338 O   0  0  0  0  0  0
+   30.6327   25.1783   22.7945 C   0  0  0  0  0  0
+   30.8743   24.0218   22.0353 O   0  0  0  0  0  0
+   31.6700   25.3907   23.8689 C   0  0  0  0  0  0
+   32.9293   24.9203   23.4532 O   0  0  0  0  0  0
+   33.1667   26.9593   25.2388 H   0  0  0  0  0  0
+   27.8783   27.8995   21.7365 H   0  0  0  0  0  0
+   30.1708   23.9944   21.3354 H   0  0  0  0  0  0
+   32.8876   23.9290   23.4829 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.82176689,113.67708606,-177.90364503,-172.67682359,-140.88059769
+
+>  <CHROM.1>
+-178.78024730,-40.69578613,172.75468793,-63.25254378,174.56511233,31.10143877
+26.21139199,22.87620297,-0.10860488,-0.59887232,0.28116877
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+34.1292
+
+>  <SCORE.INTER>
+38.4946
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-2.37439
+
+>  <SCORE.INTER.REPUL>
+0.799814
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+36.1684
+
+>  <SCORE.INTER.norm>
+3.84946
+
+>  <SCORE.INTRA>
+-1.21662
+
+>  <SCORE.INTRA.DIHEDRAL>
+-2.9903
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.278525
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.121662
+
+>  <SCORE.RESTR>
+1.59181
+
+>  <SCORE.RESTR.CAVITY>
+1.59181
+
+>  <SCORE.RESTR.norm>
+0.159181
+
+>  <SCORE.SYSTEM>
+-4.74055
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+9.15345
+
+>  <SCORE.SYSTEM.POLAR>
+-2.80539
+
+>  <SCORE.SYSTEM.VDW>
+0.22104
+
+>  <SCORE.SYSTEM.norm>
+-0.474055
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+3.41292
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   22.3324   32.1790   24.6110 C   0  0  0  0  0  0
+   20.9646   32.4159   24.3948 O   0  0  0  0  0  0
+   22.9294   33.2665   25.2891 O   0  0  0  0  0  0
+   23.7444   32.7361   26.3134 C   0  0  0  0  0  0
+   25.1196   33.4151   26.2953 C   0  0  0  0  0  0
+   25.9172   32.9324   27.3422 O   0  0  0  0  0  0
+   23.8539   31.2254   26.1241 C   0  0  0  0  0  0
+   23.9584   30.5681   27.3607 O   0  0  0  0  0  0
+   22.5714   30.8961   25.4017 C   0  0  0  0  0  0
+   21.5228   30.6737   26.3132 O   0  0  0  0  0  0
+   20.8901   33.2293   23.8300 H   0  0  0  0  0  0
+   26.0584   31.9649   27.1693 H   0  0  0  0  0  0
+   23.1484   30.8154   27.8785 H   0  0  0  0  0  0
+   21.7065   29.8027   26.7526 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+171.03415079,43.07713372,-60.17528907,-175.20991364,57.19734954
+
+>  <CHROM.1>
+61.05594111,177.66553444,63.42714189,58.24284778,176.55318412,23.27141230
+32.01870316,25.97874246,-3.07104152,0.51689937,2.59759280
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-11.5325
+
+>  <SCORE.INTER>
+0.325895
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-6.07411
+
+>  <SCORE.INTER.norm>
+0.0325895
+
+>  <SCORE.INTRA>
+-1.61606
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.51663
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.642251
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.161606
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-10.2423
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.17082
+
+>  <SCORE.SYSTEM.POLAR>
+-2.93214
+
+>  <SCORE.SYSTEM.VDW>
+-0.85848
+
+>  <SCORE.SYSTEM.norm>
+-1.02423
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.15325
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   29.7123   27.1062   21.8956 C   0  0  0  0  0  0
+   28.4871   27.7937   21.8943 O   0  0  0  0  0  0
+   29.7284   26.1105   22.8993 O   0  0  0  0  0  0
+   30.2626   24.9351   22.3267 C   0  0  0  0  0  0
+   31.3254   24.3345   23.2553 C   0  0  0  0  0  0
+   30.9795   23.0233   23.6110 O   0  0  0  0  0  0
+   30.8340   25.2718   20.9519 C   0  0  0  0  0  0
+   30.6904   24.1908   20.0671 O   0  0  0  0  0  0
+   30.0092   26.4666   20.5426 C   0  0  0  0  0  0
+   28.8171   26.0636   19.9131 O   0  0  0  0  0  0
+   28.5587   28.5288   22.5581 H   0  0  0  0  0  0
+   31.6252   22.7385   24.3096 H   0  0  0  0  0  0
+   31.4128   23.5478   20.2910 H   0  0  0  0  0  0
+   28.1704   26.8088   20.0228 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-60.34930660,145.92793404,-59.37221555,-168.56516808,56.17606701
+
+>  <CHROM.1>
+86.13122474,121.69921343,-171.86845366,-78.73320817,44.39161200,30.05493818
+25.50902596,21.74166438,2.79233396,1.04849425,-1.68913519
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+91.8404
+
+>  <SCORE.INTER>
+96.5239
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-2.40557
+
+>  <SCORE.INTER.REPUL>
+0.006002
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+98.2728
+
+>  <SCORE.INTER.norm>
+9.65239
+
+>  <SCORE.INTRA>
+2.78768
+
+>  <SCORE.INTRA.DIHEDRAL>
+6.38935
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.204882
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.289603
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.278768
+
+>  <SCORE.RESTR>
+0.890499
+
+>  <SCORE.RESTR.CAVITY>
+0.890499
+
+>  <SCORE.RESTR.norm>
+0.0890499
+
+>  <SCORE.SYSTEM>
+-8.36165
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+2.51154
+
+>  <SCORE.SYSTEM.POLAR>
+-2.80152
+
+>  <SCORE.SYSTEM.VDW>
+-0.092258
+
+>  <SCORE.SYSTEM.norm>
+-0.836165
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+9.18404
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   32.5145   25.3115   25.2727 C   0  0  0  0  0  0
+   33.8286   25.1738   25.7503 O   0  0  0  0  0  0
+   32.5124   25.7158   23.9179 O   0  0  0  0  0  0
+   31.5645   24.9211   23.2362 C   0  0  0  0  0  0
+   30.6697   25.8065   22.3599 C   0  0  0  0  0  0
+   30.7368   25.3964   21.0210 O   0  0  0  0  0  0
+   30.7540   24.1321   24.2612 C   0  0  0  0  0  0
+   30.3776   22.8791   23.7506 O   0  0  0  0  0  0
+   31.7166   24.0191   25.4170 C   0  0  0  0  0  0
+   32.5556   22.8996   25.2660 O   0  0  0  0  0  0
+   33.7708   24.9185   26.7082 H   0  0  0  0  0  0
+   30.2721   24.5205   20.9682 H   0  0  0  0  0  0
+   29.7902   22.4632   24.4343 H   0  0  0  0  0  0
+   31.9817   22.0966   25.3715 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+173.75445519,-112.44829336,60.57231504,-177.30622623,-61.69513854
+
+>  <CHROM.1>
+178.21570295,122.56143979,70.09265967,-174.95897503,179.89859719,31.73644786
+24.58209974,24.01501369,-0.77942522,-0.77539720,-0.72575468
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+4.29899
+
+>  <SCORE.INTER>
+7.43522
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-1.94366
+
+>  <SCORE.INTER.REPUL>
+0.61009
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+4.59322
+
+>  <SCORE.INTER.norm>
+0.743522
+
+>  <SCORE.INTRA>
+0.801179
+
+>  <SCORE.INTRA.DIHEDRAL>
+1.20847
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.196943
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.0801179
+
+>  <SCORE.RESTR>
+4.92669
+
+>  <SCORE.RESTR.CAVITY>
+4.92669
+
+>  <SCORE.RESTR.norm>
+0.492669
+
+>  <SCORE.SYSTEM>
+-8.8641
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+3.72178
+
+>  <SCORE.SYSTEM.POLAR>
+-3.11129
+
+>  <SCORE.SYSTEM.VDW>
+-0.146618
+
+>  <SCORE.SYSTEM.norm>
+-0.88641
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.429899
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   34.4220   24.4300   24.6811 C   0  0  0  0  0  0
+   35.5270   23.8154   24.0686 O   0  0  0  0  0  0
+   33.8630   25.4156   23.8355 O   0  0  0  0  0  0
+   32.4604   25.2514   23.8567 C   0  0  0  0  0  0
+   31.7755   26.6084   24.0615 C   0  0  0  0  0  0
+   31.5796   27.2483   22.8296 O   0  0  0  0  0  0
+   32.0966   24.2592   24.9582 C   0  0  0  0  0  0
+   30.9673   23.5033   24.6037 O   0  0  0  0  0  0
+   33.3448   23.4187   25.0616 C   0  0  0  0  0  0
+   33.3146   22.3566   24.1391 O   0  0  0  0  0  0
+   36.1752   24.5317   23.8387 H   0  0  0  0  0  0
+   30.8153   26.7913   22.3903 H   0  0  0  0  0  0
+   30.2349   24.1534   24.4416 H   0  0  0  0  0  0
+   34.2256   21.9624   24.1279 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+173.81998079,-118.04364784,-178.63495050,-170.38788554,-146.73759327
+
+>  <CHROM.1>
+56.73751182,86.94114373,75.65030661,-58.40905379,56.97168084,32.93678833
+24.62052908,24.16368054,-0.90997560,0.06523908,-0.32961719
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+3.15305
+
+>  <SCORE.INTER>
+2.89244
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.750374
+
+>  <SCORE.INTER.REPUL>
+0.793435
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-4.92347
+
+>  <SCORE.INTER.norm>
+0.289244
+
+>  <SCORE.INTRA>
+-0.39105
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.2115
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.0227278
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.291977
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.039105
+
+>  <SCORE.RESTR>
+6.32417
+
+>  <SCORE.RESTR.CAVITY>
+6.32417
+
+>  <SCORE.RESTR.norm>
+0.632417
+
+>  <SCORE.SYSTEM>
+-5.67251
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+8.19063
+
+>  <SCORE.SYSTEM.POLAR>
+-3.10221
+
+>  <SCORE.SYSTEM.VDW>
+0.779687
+
+>  <SCORE.SYSTEM.norm>
+-0.567251
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.315305
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   30.8938   26.1588   22.4202 C   0  0  0  0  0  0
+   29.5996   26.6296   22.1423 O   0  0  0  0  0  0
+   31.5015   26.9309   23.4369 O   0  0  0  0  0  0
+   32.1110   26.0376   24.3453 C   0  0  0  0  0  0
+   33.5383   26.5021   24.6612 C   0  0  0  0  0  0
+   34.3191   26.5101   23.4969 O   0  0  0  0  0  0
+   32.0898   24.6339   23.7460 C   0  0  0  0  0  0
+   31.9574   23.6592   24.7483 O   0  0  0  0  0  0
+   30.8904   24.6900   22.8331 C   0  0  0  0  0  0
+   29.7105   24.3749   23.5320 O   0  0  0  0  0  0
+   29.2140   26.0411   21.4415 H   0  0  0  0  0  0
+   34.2230   27.4136   23.0963 H   0  0  0  0  0  0
+   32.6629   23.8506   25.4200 H   0  0  0  0  0  0
+   29.8109   23.4417   23.8553 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-60.58212609,-0.67082814,-59.76490060,-72.57863432,57.75675609
+
+>  <CHROM.1>
+-178.65231482,-61.73666371,90.16238597,-51.75776816,-174.06094030,31.64464076
+25.60805026,23.53509506,3.10959766,0.39942477,2.67365534
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-1.57915
+
+>  <SCORE.INTER>
+2.34862
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-3.43182
+
+>  <SCORE.INTER.REPUL>
+0.564756
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+4.79302
+
+>  <SCORE.INTER.norm>
+0.234862
+
+>  <SCORE.INTRA>
+0.135346
+
+>  <SCORE.INTRA.DIHEDRAL>
+-0.537298
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.403995
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.0135346
+
+>  <SCORE.RESTR>
+2.1546
+
+>  <SCORE.RESTR.CAVITY>
+2.1546
+
+>  <SCORE.RESTR.norm>
+0.21546
+
+>  <SCORE.SYSTEM>
+-6.21771
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+7.98536
+
+>  <SCORE.SYSTEM.POLAR>
+-2.97902
+
+>  <SCORE.SYSTEM.REPUL>
+0.0442644
+
+>  <SCORE.SYSTEM.VDW>
+-0.303048
+
+>  <SCORE.SYSTEM.norm>
+-0.621771
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-0.157915
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   22.4497   30.2091   26.0082 C   0  0  0  0  0  0
+   22.3749   29.1819   26.9638 O   0  0  0  0  0  0
+   21.2766   30.9981   26.0262 O   0  0  0  0  0  0
+   21.6724   32.3533   25.9840 C   0  0  0  0  0  0
+   20.8461   33.1095   24.9362 C   0  0  0  0  0  0
+   21.0230   32.5381   23.6683 O   0  0  0  0  0  0
+   23.1678   32.4213   25.6857 C   0  0  0  0  0  0
+   23.7602   33.5231   26.3241 O   0  0  0  0  0  0
+   23.6658   31.1042   26.2266 C   0  0  0  0  0  0
+   23.9672   31.2044   27.5974 O   0  0  0  0  0  0
+   22.2229   29.6092   27.8473 H   0  0  0  0  0  0
+   21.9834   32.6445   23.4399 H   0  0  0  0  0  0
+   23.3246   34.3320   25.9481 H   0  0  0  0  0  0
+   23.1615   31.5788   28.0401 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.83445285,163.20461364,-59.76854493,-174.12073453,57.47325422
+
+>  <CHROM.1>
+-57.10979194,-59.39731956,-62.75701404,-61.95417133,-58.90102620,22.42254739
+31.66672689,25.96265638,0.97166880,0.61493895,2.74623002
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-10.3571
+
+>  <SCORE.INTER>
+1.30495
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-5.09505
+
+>  <SCORE.INTER.norm>
+0.130495
+
+>  <SCORE.INTRA>
+-1.57748
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.56678
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.705909
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.157748
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-10.0846
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.03654
+
+>  <SCORE.SYSTEM.POLAR>
+-2.8825
+
+>  <SCORE.SYSTEM.VDW>
+-0.802385
+
+>  <SCORE.SYSTEM.norm>
+-1.00846
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.03571
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.9032   23.2958   24.0848 C   0  0  0  0  0  0
+   31.5625   22.3500   25.0663 O   0  0  0  0  0  0
+   30.8368   23.4823   23.1755 O   0  0  0  0  0  0
+   30.6861   24.8719   22.9728 C   0  0  0  0  0  0
+   30.5663   25.1743   21.4739 C   0  0  0  0  0  0
+   30.2859   26.5326   21.2698 O   0  0  0  0  0  0
+   31.8728   25.5942   23.6052 C   0  0  0  0  0  0
+   31.4912   26.8496   24.1058 O   0  0  0  0  0  0
+   32.2884   24.6395   24.6965 C   0  0  0  0  0  0
+   31.5580   24.8742   25.8760 O   0  0  0  0  0  0
+   32.2800   22.3633   25.7527 H   0  0  0  0  0  0
+   30.2258   26.6661   20.2877 H   0  0  0  0  0  0
+   32.3171   27.2737   24.4572 H   0  0  0  0  0  0
+   31.8157   24.1621   26.5178 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+171.93178187,-102.07236033,-179.00093851,-174.17885523,-145.32017716
+
+>  <CHROM.1>
+-171.23479090,174.24181598,179.68041464,-177.26924100,62.91315007,31.29397310
+24.78367726,23.66125698,0.77268943,1.20057114,3.02175804
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+8.89881
+
+>  <SCORE.INTER>
+12.7766
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-2.64715
+
+>  <SCORE.INTER.REPUL>
+0.359929
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+13.5772
+
+>  <SCORE.INTER.norm>
+1.27766
+
+>  <SCORE.INTRA>
+-1.53837
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.1032
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.513228
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.153837
+
+>  <SCORE.RESTR>
+3.23608
+
+>  <SCORE.RESTR.CAVITY>
+3.23608
+
+>  <SCORE.RESTR.norm>
+0.323608
+
+>  <SCORE.SYSTEM>
+-5.57546
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+7.7562
+
+>  <SCORE.SYSTEM.POLAR>
+-2.93624
+
+>  <SCORE.SYSTEM.VDW>
+0.52964
+
+>  <SCORE.SYSTEM.norm>
+-0.557546
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.889881
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   22.8631   31.1268   24.3566 C   0  0  0  0  0  0
+   22.4984   29.7723   24.4350 O   0  0  0  0  0  0
+   21.7376   31.9344   24.0739 O   0  0  0  0  0  0
+   21.7849   33.0508   24.9376 C   0  0  0  0  0  0
+   21.5342   34.3396   24.1446 C   0  0  0  0  0  0
+   22.4852   34.4787   23.1240 O   0  0  0  0  0  0
+   23.1385   33.0719   25.6429 C   0  0  0  0  0  0
+   23.0233   33.5958   26.9407 O   0  0  0  0  0  0
+   23.5269   31.6143   25.6410 C   0  0  0  0  0  0
+   22.9907   30.9489   26.7589 O   0  0  0  0  0  0
+   23.3359   29.2387   24.4274 H   0  0  0  0  0  0
+   23.3654   34.5921   23.5692 H   0  0  0  0  0  0
+   22.3635   33.0258   27.4152 H   0  0  0  0  0  0
+   23.5047   31.2591   27.5493 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-61.65000163,164.01637829,-58.81235799,-168.39641930,57.77363808
+
+>  <CHROM.1>
+167.41282554,-58.23680495,-64.91618120,57.74116010,176.00183502,22.56596500
+32.37206813,25.02551618,0.90377754,1.25185936,-2.90398973
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-7.94098
+
+>  <SCORE.INTER>
+3.08204
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-3.31796
+
+>  <SCORE.INTER.norm>
+0.308204
+
+>  <SCORE.INTRA>
+-1.29746
+
+>  <SCORE.INTRA.DIHEDRAL>
+-3.69286
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.54897
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.129746
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-9.72556
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.898973
+
+>  <SCORE.SYSTEM.POLAR>
+-2.86621
+
+>  <SCORE.SYSTEM.VDW>
+-0.429916
+
+>  <SCORE.SYSTEM.norm>
+-0.972556
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-0.794098
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   21.0837   24.6994   19.1285 C   0  0  0  0  0  0
+   21.4644   26.0251   19.3957 O   0  0  0  0  0  0
+   20.6106   24.0668   20.3011 O   0  0  0  0  0  0
+   19.4283   23.3715   19.9642 C   0  0  0  0  0  0
+   19.4750   21.9485   20.5348 C   0  0  0  0  0  0
+   19.5080   21.9842   21.9359 O   0  0  0  0  0  0
+   19.2726   23.3700   18.4458 C   0  0  0  0  0  0
+   17.9179   23.4063   18.0773 O   0  0  0  0  0  0
+   20.0141   24.6204   18.0434 C   0  0  0  0  0  0
+   19.1705   25.7454   18.0969 O   0  0  0  0  0  0
+   20.6393   26.5777   19.3894 H   0  0  0  0  0  0
+   19.5652   21.0417   22.2430 H   0  0  0  0  0  0
+   17.5056   22.5815   18.4449 H   0  0  0  0  0  0
+   18.4855   25.6223   17.3891 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-59.77857393,43.18389874,-57.46678416,-174.45135566,-62.08854811
+
+>  <CHROM.1>
+-81.62714592,63.70094744,-178.31179688,-61.55027801,-178.37487525,19.76636855
+23.94331066,19.41613248,-1.34871274,0.67039406,2.33742760
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-12.7288
+
+>  <SCORE.INTER>
+-2.4034
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.571766
+
+>  <SCORE.INTER.REPUL>
+0.0386968
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-7.05288
+
+>  <SCORE.INTER.norm>
+-0.24034
+
+>  <SCORE.INTRA>
+-1.5567
+
+>  <SCORE.INTRA.DIHEDRAL>
+-2.52369
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.22203
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.460051
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.15567
+
+>  <SCORE.RESTR>
+1.0762
+
+>  <SCORE.RESTR.CAVITY>
+1.0762
+
+>  <SCORE.RESTR.norm>
+0.10762
+
+>  <SCORE.SYSTEM>
+-9.84494
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.789854
+
+>  <SCORE.SYSTEM.POLAR>
+-2.92127
+
+>  <SCORE.SYSTEM.VDW>
+-0.307569
+
+>  <SCORE.SYSTEM.norm>
+-0.984494
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.27288
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   27.8458   38.5761   22.5177 C   0  0  0  0  0  0
+   28.7297   39.1853   23.4240 O   0  0  0  0  0  0
+   26.9231   39.5175   22.0064 O   0  0  0  0  0  0
+   26.8378   39.3177   20.6109 C   0  0  0  0  0  0
+   25.3680   39.2831   20.1739 C   0  0  0  0  0  0
+   24.7326   40.4898   20.4989 O   0  0  0  0  0  0
+   27.5679   38.0261   20.2519 C   0  0  0  0  0  0
+   28.1639   38.1189   18.9837 O   0  0  0  0  0  0
+   28.5842   37.9103   21.3605 C   0  0  0  0  0  0
+   29.7562   38.6226   21.0456 O   0  0  0  0  0  0
+   29.3392   38.4790   23.7643 H   0  0  0  0  0  0
+   24.8291   40.6067   21.4802 H   0  0  0  0  0  0
+   27.4203   38.1762   18.3285 H   0  0  0  0  0  0
+   30.2031   38.1264   20.3111 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-58.10870154,-77.90384529,-58.89677894,-168.28906739,-61.82253677
+
+>  <CHROM.1>
+178.82593216,59.79766913,-57.89809259,-66.76702374,178.19488871,27.47114325
+38.93373418,21.08846065,0.26242211,-0.42530367,1.28475467
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-15.0333
+
+>  <SCORE.INTER>
+-4.32013
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.595098
+
+>  <SCORE.INTER.REPUL>
+0.00483691
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-8.72098
+
+>  <SCORE.INTER.norm>
+-0.432013
+
+>  <SCORE.INTRA>
+-1.89449
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.40965
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.0198529
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.377838
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.189449
+
+>  <SCORE.RESTR>
+1.16932
+
+>  <SCORE.RESTR.CAVITY>
+1.16932
+
+>  <SCORE.RESTR.norm>
+0.116932
+
+>  <SCORE.SYSTEM>
+-9.98804
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.03862
+
+>  <SCORE.SYSTEM.POLAR>
+-2.99522
+
+>  <SCORE.SYSTEM.VDW>
+-0.323597
+
+>  <SCORE.SYSTEM.norm>
+-0.998804
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.50333
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.9127   26.7941   23.9664 C   0  0  0  0  0  0
+   33.1808   27.3647   24.1673 O   0  0  0  0  0  0
+   31.3846   27.1734   22.7109 O   0  0  0  0  0  0
+   30.8488   26.0154   22.1054 C   0  0  0  0  0  0
+   29.4497   26.3119   21.5511 C   0  0  0  0  0  0
+   28.9544   27.5086   22.0879 O   0  0  0  0  0  0
+   30.8255   24.8871   23.1331 C   0  0  0  0  0  0
+   31.0367   23.6414   22.5200 O   0  0  0  0  0  0
+   31.9504   25.2718   24.0614 C   0  0  0  0  0  0
+   33.1814   24.7768   23.5931 O   0  0  0  0  0  0
+   33.1424   28.2986   23.8319 H   0  0  0  0  0  0
+   28.0379   27.6254   21.7243 H   0  0  0  0  0  0
+   30.5560   23.6715   21.6519 H   0  0  0  0  0  0
+   33.8914   25.2981   24.0508 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-60.88953928,-76.95178963,-60.64163637,-178.94597281,-61.77802250
+
+>  <CHROM.1>
+41.05747244,-15.24709261,-177.64763756,-38.04146088,49.78523193,31.29117690
+25.99523281,22.97790167,-0.20467109,-0.54451493,0.10860207
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+31.6865
+
+>  <SCORE.INTER>
+37.4426
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-3.54091
+
+>  <SCORE.INTER.REPUL>
+0.593817
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+40.1126
+
+>  <SCORE.INTER.norm>
+3.74426
+
+>  <SCORE.INTRA>
+2.63378
+
+>  <SCORE.INTRA.DIHEDRAL>
+3.98403
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.12025
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+1.05062
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.263378
+
+>  <SCORE.RESTR>
+1.69173
+
+>  <SCORE.RESTR.CAVITY>
+1.69173
+
+>  <SCORE.RESTR.norm>
+0.169173
+
+>  <SCORE.SYSTEM>
+-10.0816
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.727208
+
+>  <SCORE.SYSTEM.POLAR>
+-2.98923
+
+>  <SCORE.SYSTEM.VDW>
+-0.28182
+
+>  <SCORE.SYSTEM.norm>
+-1.00816
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+3.16865
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   23.0230   32.9045   25.6704 C   0  0  0  0  0  0
+   22.3559   33.9988   25.0947 O   0  0  0  0  0  0
+   22.4798   32.5960   26.9388 O   0  0  0  0  0  0
+   22.3161   31.1947   27.0042 C   0  0  0  0  0  0
+   22.8701   30.6625   28.3317 C   0  0  0  0  0  0
+   22.7740   29.2645   28.3765 O   0  0  0  0  0  0
+   23.0119   30.5602   25.8029 C   0  0  0  0  0  0
+   22.3337   29.4061   25.3783 O   0  0  0  0  0  0
+   22.9642   31.6673   24.7795 C   0  0  0  0  0  0
+   21.7570   31.6339   24.0574 O   0  0  0  0  0  0
+   22.4958   34.7794   25.6923 H   0  0  0  0  0  0
+   23.1487   28.9817   29.2514 H   0  0  0  0  0  0
+   21.4385   29.7049   25.0702 H   0  0  0  0  0  0
+   21.0238   31.6842   24.7247 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+171.70978682,163.28036721,-57.34517085,-170.24449654,-59.39274691
+
+>  <CHROM.1>
+61.88627990,-176.99275163,179.78453599,63.94043361,-55.61336187,22.55070664
+31.38037888,26.14192663,-2.10989845,1.41535178,2.94279345
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-10.9213
+
+>  <SCORE.INTER>
+0.390129
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.744581
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-3.4783
+
+>  <SCORE.INTER.norm>
+0.0390129
+
+>  <SCORE.INTRA>
+-1.36111
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.45819
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.867985
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.136111
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-9.95031
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.19883
+
+>  <SCORE.SYSTEM.POLAR>
+-2.87173
+
+>  <SCORE.SYSTEM.VDW>
+-0.785831
+
+>  <SCORE.SYSTEM.norm>
+-0.995031
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.09213
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   30.9974   26.2018   22.3860 C   0  0  0  0  0  0
+   29.6936   26.6667   22.1452 O   0  0  0  0  0  0
+   31.6189   26.9560   23.4077 O   0  0  0  0  0  0
+   32.2547   26.0477   24.2827 C   0  0  0  0  0  0
+   33.6839   26.5181   24.5804 C   0  0  0  0  0  0
+   34.4263   26.6078   23.3945 O   0  0  0  0  0  0
+   32.2337   24.6580   23.6516 C   0  0  0  0  0  0
+   32.1304   23.6593   24.6336 O   0  0  0  0  0  0
+   31.0154   24.7239   22.7647 C   0  0  0  0  0  0
+   29.8529   24.3818   23.4798 O   0  0  0  0  0  0
+   29.2795   26.0571   21.4796 H   0  0  0  0  0  0
+   35.3439   26.8849   23.6538 H   0  0  0  0  0  0
+   32.8528   23.8371   25.2908 H   0  0  0  0  0  0
+   29.9582   23.4353   23.7598 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.55162051,39.48259060,62.51768280,-172.74720421,57.50234713
+
+>  <CHROM.1>
+-175.24158737,-59.55069975,-178.12137653,-52.24956498,-175.44812453,31.78081152
+25.63338907,23.47601261,3.08646140,0.38466447,2.70545409
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+1.29791
+
+>  <SCORE.INTER>
+11.0029
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-3.20854
+
+>  <SCORE.INTER.REPUL>
+0.413723
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+13.4433
+
+>  <SCORE.INTER.norm>
+1.10029
+
+>  <SCORE.INTRA>
+-1.6178
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.16287
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.463639
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.16178
+
+>  <SCORE.RESTR>
+1.99506
+
+>  <SCORE.RESTR.CAVITY>
+1.99506
+
+>  <SCORE.RESTR.norm>
+0.199506
+
+>  <SCORE.SYSTEM>
+-10.0822
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.39099
+
+>  <SCORE.SYSTEM.POLAR>
+-2.95374
+
+>  <SCORE.SYSTEM.VDW>
+-0.735008
+
+>  <SCORE.SYSTEM.norm>
+-1.00822
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.129791
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.7719   25.9475   24.7479 C   0  0  0  0  0  0
+   33.0105   26.3843   25.2469 O   0  0  0  0  0  0
+   31.7402   26.0341   23.3371 O   0  0  0  0  0  0
+   31.1806   24.8332   22.8477 C   0  0  0  0  0  0
+   30.1098   25.1436   21.7942 C   0  0  0  0  0  0
+   30.3012   26.4280   21.2660 O   0  0  0  0  0  0
+   30.6105   24.0406   24.0210 C   0  0  0  0  0  0
+   30.7293   22.6586   23.8017 O   0  0  0  0  0  0
+   31.4571   24.5170   25.1750 C   0  0  0  0  0  0
+   32.6386   23.7599   25.2790 O   0  0  0  0  0  0
+   33.7142   25.8243   24.8259 H   0  0  0  0  0  0
+   29.6679   26.5205   20.5069 H   0  0  0  0  0  0
+   30.1820   22.2160   24.5018 H   0  0  0  0  0  0
+   32.3647   22.8336   25.5080 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+173.46496527,37.76199563,-59.09931510,-173.41520558,59.24826965
+
+>  <CHROM.1>
+-57.54597884,20.99261789,172.05186432,-168.75799508,-176.88306600,31.38267902
+24.96678065,23.74418610,-0.70710162,-0.91111097,-0.49883020
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+0.0583312
+
+>  <SCORE.INTER>
+5.5421
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-3.36905
+
+>  <SCORE.INTER.REPUL>
+0.34359
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+8.8789
+
+>  <SCORE.INTER.norm>
+0.55421
+
+>  <SCORE.INTRA>
+0.523564
+
+>  <SCORE.INTRA.DIHEDRAL>
+0.139574
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.453777
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.0523564
+
+>  <SCORE.RESTR>
+3.87848
+
+>  <SCORE.RESTR.CAVITY>
+3.87848
+
+>  <SCORE.RESTR.norm>
+0.387848
+
+>  <SCORE.SYSTEM>
+-9.88581
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.41907
+
+>  <SCORE.SYSTEM.POLAR>
+-2.93949
+
+>  <SCORE.SYSTEM.VDW>
+-0.601069
+
+>  <SCORE.SYSTEM.norm>
+-0.988581
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.00583312
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   22.6277   30.6616   27.9681 C   0  0  0  0  0  0
+   23.5339   30.5435   29.0352 O   0  0  0  0  0  0
+   23.2495   31.2523   26.8442 O   0  0  0  0  0  0
+   22.8779   30.5020   25.7067 C   0  0  0  0  0  0
+   22.4344   31.4423   24.5790 C   0  0  0  0  0  0
+   21.3451   32.2220   24.9923 O   0  0  0  0  0  0
+   21.7729   29.5250   26.0997 C   0  0  0  0  0  0
+   21.8646   28.3350   25.3596 O   0  0  0  0  0  0
+   22.0365   29.3127   27.5696 C   0  0  0  0  0  0
+   22.9742   28.2827   27.7693 O   0  0  0  0  0  0
+   24.2980   29.9952   28.7162 H   0  0  0  0  0  0
+   21.0960   32.7945   24.2202 H   0  0  0  0  0  0
+   21.0707   27.7914   25.6040 H   0  0  0  0  0  0
+   22.5311   27.4368   27.4980 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.69203221,43.20239647,60.48682787,-176.48507437,57.55681301
+
+>  <CHROM.1>
+-58.27145137,-59.41826705,-179.05933822,-174.66888031,179.72963760,22.47752942
+30.18927596,26.59726337,-0.82345343,-1.15944513,-0.30478852
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-12.9645
+
+>  <SCORE.INTER>
+-0.571083
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.275716
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-6.03365
+
+>  <SCORE.INTER.norm>
+-0.0571083
+
+>  <SCORE.INTRA>
+-2.17099
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.51475
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.0863854
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.217099
+
+>  <SCORE.RESTR>
+0.028937
+
+>  <SCORE.RESTR.CAVITY>
+0.028937
+
+>  <SCORE.RESTR.norm>
+0.0028937
+
+>  <SCORE.SYSTEM>
+-10.2514
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.00632
+
+>  <SCORE.SYSTEM.POLAR>
+-2.93155
+
+>  <SCORE.SYSTEM.VDW>
+-0.787231
+
+>  <SCORE.SYSTEM.norm>
+-1.02514
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.29645
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   25.9712   32.4913   26.5732 C   0  0  0  0  0  0
+   27.3509   32.2342   26.5081 O   0  0  0  0  0  0
+   25.2673   31.6936   25.6420 O   0  0  0  0  0  0
+   24.1394   31.1595   26.3034 C   0  0  0  0  0  0
+   22.8877   31.3383   25.4351 C   0  0  0  0  0  0
+   21.8075   30.6323   25.9829 O   0  0  0  0  0  0
+   23.9927   31.8443   27.6596 C   0  0  0  0  0  0
+   23.4632   30.9624   28.6157 O   0  0  0  0  0  0
+   25.4114   32.2507   27.9720 C   0  0  0  0  0  0
+   26.1054   31.2062   28.6102 O   0  0  0  0  0  0
+   27.6619   32.5103   25.6063 H   0  0  0  0  0  0
+   21.0860   30.6424   25.3008 H   0  0  0  0  0  0
+   24.1704   30.2900   28.7983 H   0  0  0  0  0  0
+   27.0703   31.4345   28.5637 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.42816924,42.93787904,179.95123012,-175.53172818,56.88096985
+
+>  <CHROM.1>
+63.97418587,170.83764551,-169.58835360,69.72201718,53.19139831,24.65330705
+31.54654541,26.93791581,-0.18988684,-0.28757997,-1.43901684
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-17.2884
+
+>  <SCORE.INTER>
+-5.1344
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-1.3241
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-7.03248
+
+>  <SCORE.INTER.norm>
+-0.51344
+
+>  <SCORE.INTRA>
+-1.91655
+
+>  <SCORE.INTRA.DIHEDRAL>
+-3.1156
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.26288
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.535039
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.191655
+
+>  <SCORE.RESTR>
+0.0076621
+
+>  <SCORE.RESTR.CAVITY>
+0.0076621
+
+>  <SCORE.RESTR.norm>
+0.00076621
+
+>  <SCORE.SYSTEM>
+-10.2451
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.07586
+
+>  <SCORE.SYSTEM.POLAR>
+-2.93281
+
+>  <SCORE.SYSTEM.VDW>
+-0.811496
+
+>  <SCORE.SYSTEM.norm>
+-1.02451
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.72884
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   29.7251   27.0518   21.6754 C   0  0  0  0  0  0
+   28.4928   27.7256   21.6380 O   0  0  0  0  0  0
+   29.7462   26.1016   22.7221 O   0  0  0  0  0  0
+   30.2956   24.9078   22.2044 C   0  0  0  0  0  0
+   31.3597   24.3599   23.1637 C   0  0  0  0  0  0
+   31.0294   23.0592   23.5692 O   0  0  0  0  0  0
+   30.8706   25.1897   20.8189 C   0  0  0  0  0  0
+   30.7428   24.0693   19.9818 O   0  0  0  0  0  0
+   30.0357   26.3565   20.3534 C   0  0  0  0  0  0
+   28.8510   25.9137   19.7365 O   0  0  0  0  0  0
+   28.4544   28.3182   22.4340 H   0  0  0  0  0  0
+   31.6825   22.8064   24.2731 H   0  0  0  0  0  0
+   31.4747   23.4474   20.2328 H   0  0  0  0  0  0
+   28.3192   26.7246   19.5246 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-60.05792960,-90.40438627,-60.96631629,-179.92569084,-61.17770495
+
+>  <CHROM.1>
+70.49983491,122.03241161,-172.73267051,-79.13759113,63.67775987,30.08568560
+25.45213484,21.59209707,2.77584857,1.03760838,-1.71992561
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+92.3869
+
+>  <SCORE.INTER>
+98.7016
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-2.22241
+
+>  <SCORE.INTER.REPUL>
+0.0236776
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+99.7395
+
+>  <SCORE.INTER.norm>
+9.87016
+
+>  <SCORE.INTRA>
+1.56477
+
+>  <SCORE.INTRA.DIHEDRAL>
+3.04578
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.0418817
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.156477
+
+>  <SCORE.RESTR>
+1.03576
+
+>  <SCORE.RESTR.CAVITY>
+1.03576
+
+>  <SCORE.RESTR.norm>
+0.103576
+
+>  <SCORE.SYSTEM>
+-8.91523
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.88582
+
+>  <SCORE.SYSTEM.POLAR>
+-2.9037
+
+>  <SCORE.SYSTEM.VDW>
+0.0144206
+
+>  <SCORE.SYSTEM.norm>
+-0.891523
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+9.23869
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   22.5833   22.3615   24.3808 C   0  0  0  0  0  0
+   23.8148   22.8732   24.8232 O   0  0  0  0  0  0
+   22.0269   23.1885   23.3781 O   0  0  0  0  0  0
+   21.5606   22.3492   22.3422 C   0  0  0  0  0  0
+   20.1433   22.7642   21.9279 C   0  0  0  0  0  0
+   19.7637   22.1015   20.7522 O   0  0  0  0  0  0
+   21.6116   20.9006   22.8204 C   0  0  0  0  0  0
+   21.8963   20.0280   21.7574 O   0  0  0  0  0  0
+   22.7151   20.9379   23.8481 C   0  0  0  0  0  0
+   23.9721   20.7494   23.2445 O   0  0  0  0  0  0
+   23.6500   23.7924   25.1607 H   0  0  0  0  0  0
+   19.7419   21.1323   20.9665 H   0  0  0  0  0  0
+   21.8903   19.1113   22.1385 H   0  0  0  0  0  0
+   23.9884   19.8170   22.9043 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-60.66032967,163.27051874,178.56508216,-179.81713377,-60.21614431
+
+>  <CHROM.1>
+58.07403063,169.52764430,63.39979545,-178.61232880,-178.86781303,22.03292126
+21.80483871,22.90359343,0.34945099,-0.66218639,0.49012706
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-12.7486
+
+>  <SCORE.INTER>
+-1.20464
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.938083
+
+>  <SCORE.INTER.REPUL>
+0.216276
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-5.49653
+
+>  <SCORE.INTER.norm>
+-0.120464
+
+>  <SCORE.INTRA>
+-1.88467
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.1896
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.210128
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.188467
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-9.65929
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.694041
+
+>  <SCORE.SYSTEM.POLAR>
+-2.87179
+
+>  <SCORE.SYSTEM.VDW>
+-0.242238
+
+>  <SCORE.SYSTEM.norm>
+-0.965929
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.27486
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   23.3092   30.8407   25.1297 C   0  0  0  0  0  0
+   22.5137   31.3074   24.0698 O   0  0  0  0  0  0
+   24.0395   31.9009   25.7142 O   0  0  0  0  0  0
+   23.9327   31.7712   27.1165 C   0  0  0  0  0  0
+   25.3147   31.9213   27.7647 C   0  0  0  0  0  0
+   25.8972   33.1425   27.3976 O   0  0  0  0  0  0
+   23.2968   30.4219   27.4401 C   0  0  0  0  0  0
+   22.5089   30.5004   28.6001 O   0  0  0  0  0  0
+   22.4781   30.1453   26.2038 C   0  0  0  0  0  0
+   21.2036   30.7335   26.3017 O   0  0  0  0  0  0
+   22.0711   30.5179   23.6612 H   0  0  0  0  0  0
+   25.9363   33.1520   26.4055 H   0  0  0  0  0  0
+   21.7188   31.0536   28.3649 H   0  0  0  0  0  0
+   20.7550   30.5898   25.4280 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-58.66334306,42.81493316,-59.89465047,-172.26047502,-63.05889890
+
+>  <CHROM.1>
+176.42344163,56.11691965,-57.25257079,69.57079977,62.88368100,23.41817907
+31.29916691,26.54986562,-2.75360153,0.55326037,1.73630355
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-14.6532
+
+>  <SCORE.INTER>
+-2.77927
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.748331
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-6.63494
+
+>  <SCORE.INTER.norm>
+-0.277927
+
+>  <SCORE.INTRA>
+-2.05845
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.04742
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.225032
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.730369
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.205845
+
+>  <SCORE.RESTR>
+0.000435729
+
+>  <SCORE.RESTR.CAVITY>
+0.000435729
+
+>  <SCORE.RESTR.norm>
+4.35729e-05
+
+>  <SCORE.SYSTEM>
+-9.81591
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.881996
+
+>  <SCORE.SYSTEM.POLAR>
+-2.92337
+
+>  <SCORE.SYSTEM.VDW>
+-0.317466
+
+>  <SCORE.SYSTEM.norm>
+-0.981591
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.46532
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.0879   25.2615   23.5046 C   0  0  0  0  0  0
+   30.9138   26.0425   22.3498 O   0  0  0  0  0  0
+   31.3905   23.9229   23.1647 O   0  0  0  0  0  0
+   32.4603   23.5048   23.9865 C   0  0  0  0  0  0
+   32.1540   22.1272   24.5872 C   0  0  0  0  0  0
+   30.8969   21.6762   24.1608 O   0  0  0  0  0  0
+   32.6926   24.5572   25.0674 C   0  0  0  0  0  0
+   34.0526   24.6393   25.4080 O   0  0  0  0  0  0
+   32.1856   25.8155   24.4080 C   0  0  0  0  0  0
+   33.1964   26.4251   23.6422 O   0  0  0  0  0  0
+   30.1671   25.6428   21.8312 H   0  0  0  0  0  0
+   30.2239   22.2794   24.5719 H   0  0  0  0  0  0
+   34.1229   25.3334   26.1142 H   0  0  0  0  0  0
+   32.8758   27.3383   23.4215 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-59.56716088,-80.83894267,-177.36742991,-175.24808662,-64.07920823
+
+>  <CHROM.1>
+59.57579719,-0.44547060,-67.19683981,-179.61692636,81.58580108,32.09524755
+24.41644148,24.00243405,1.33662286,-0.65861556,-0.32888366
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-16.0659
+
+>  <SCORE.INTER>
+-14.011
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-4.88594
+
+>  <SCORE.INTER.REPUL>
+0.178786
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-4.69277
+
+>  <SCORE.INTER.norm>
+-1.4011
+
+>  <SCORE.INTRA>
+1.90766
+
+>  <SCORE.INTRA.DIHEDRAL>
+2.79499
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.510163
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.190766
+
+>  <SCORE.RESTR>
+5.93776
+
+>  <SCORE.RESTR.CAVITY>
+5.93776
+
+>  <SCORE.RESTR.norm>
+0.593776
+
+>  <SCORE.SYSTEM>
+-9.90028
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.15345
+
+>  <SCORE.SYSTEM.POLAR>
+-3.01492
+
+>  <SCORE.SYSTEM.VDW>
+-0.226264
+
+>  <SCORE.SYSTEM.norm>
+-0.990028
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.60659
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.8899   26.5526   24.3040 C   0  0  0  0  0  0
+   33.1422   27.1531   24.5167 O   0  0  0  0  0  0
+   31.5093   26.6523   22.9460 O   0  0  0  0  0  0
+   31.0145   25.3910   22.5472 C   0  0  0  0  0  0
+   29.6907   25.5610   21.7914 C   0  0  0  0  0  0
+   29.2724   26.8985   21.8324 O   0  0  0  0  0  0
+   30.8538   24.5107   23.7838 C   0  0  0  0  0  0
+   31.1002   23.1621   23.4789 O   0  0  0  0  0  0
+   31.8810   25.0865   24.7265 C   0  0  0  0  0  0
+   33.1432   24.5022   24.5138 O   0  0  0  0  0  0
+   33.1607   27.9948   23.9901 H   0  0  0  0  0  0
+   28.3970   26.9370   21.3653 H   0  0  0  0  0  0
+   30.9649   22.6553   24.3217 H   0  0  0  0  0  0
+   33.0611   23.5457   24.7664 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.71478643,-108.80253564,59.54477877,-163.48924065,-59.52153049
+
+>  <CHROM.1>
+41.31157046,-6.29135052,-177.51838876,-179.20884999,-177.43849721,31.36798646
+25.55258353,23.43879330,-0.32173495,-0.67387189,-0.15400994
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+6.32517
+
+>  <SCORE.INTER>
+10.5183
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-4.36956
+
+>  <SCORE.INTER.REPUL>
+0.0792556
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+18.5786
+
+>  <SCORE.INTER.norm>
+1.05183
+
+>  <SCORE.INTRA>
+1.58488
+
+>  <SCORE.INTRA.DIHEDRAL>
+2.10506
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.532352
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.158488
+
+>  <SCORE.RESTR>
+2.87751
+
+>  <SCORE.RESTR.CAVITY>
+2.87751
+
+>  <SCORE.RESTR.norm>
+0.287751
+
+>  <SCORE.SYSTEM>
+-8.65555
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+4.02566
+
+>  <SCORE.SYSTEM.POLAR>
+-3.04179
+
+>  <SCORE.SYSTEM.VDW>
+-0.326292
+
+>  <SCORE.SYSTEM.norm>
+-0.865555
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.632517
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   24.4583   32.2208   27.6036 C   0  0  0  0  0  0
+   25.7871   32.3898   28.0276 O   0  0  0  0  0  0
+   24.3953   32.0629   26.2000 O   0  0  0  0  0  0
+   23.5178   30.9898   25.9296 C   0  0  0  0  0  0
+   22.5277   31.3857   24.8272 C   0  0  0  0  0  0
+   21.7727   32.4982   25.2244 O   0  0  0  0  0  0
+   22.8041   30.5989   27.2210 C   0  0  0  0  0  0
+   22.5424   29.2196   27.2555 O   0  0  0  0  0  0
+   23.7915   31.0259   28.2784 C   0  0  0  0  0  0
+   24.7323   30.0099   28.5285 O   0  0  0  0  0  0
+   26.3020   31.6021   27.7106 H   0  0  0  0  0  0
+   21.1523   32.7025   24.4765 H   0  0  0  0  0  0
+   22.0562   29.0480   28.1038 H   0  0  0  0  0  0
+   25.3832   30.3781   29.1812 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-60.15208492,164.27258116,-59.59378296,-174.88118895,-61.12080709
+
+>  <CHROM.1>
+-56.79708209,-59.86012714,-179.77166034,-178.27246121,64.39656570,23.64906520
+31.23246094,26.92157459,-0.57398367,-0.63588515,-0.66752583
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-11.8194
+
+>  <SCORE.INTER>
+-0.0804801
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.208157
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-5.77275
+
+>  <SCORE.INTER.norm>
+-0.00804801
+
+>  <SCORE.INTRA>
+-2.06118
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.51616
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.196901
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.206118
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-9.67778
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.673965
+
+>  <SCORE.SYSTEM.POLAR>
+-2.84985
+
+>  <SCORE.SYSTEM.VDW>
+-0.325261
+
+>  <SCORE.SYSTEM.norm>
+-0.967778
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.18194
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   32.2128   23.6846   23.7346 C   0  0  0  0  0  0
+   31.9909   22.5227   24.4927 O   0  0  0  0  0  0
+   31.0869   23.9842   22.9336 O   0  0  0  0  0  0
+   30.8339   25.3686   23.0528 C   0  0  0  0  0  0
+   30.6103   25.9831   21.6654 C   0  0  0  0  0  0
+   29.5827   26.9356   21.7122 O   0  0  0  0  0  0
+   32.0042   26.0229   23.7823 C   0  0  0  0  0  0
+   31.5695   27.1043   24.5657 O   0  0  0  0  0  0
+   32.5425   24.8862   24.6150 C   0  0  0  0  0  0
+   31.8658   24.7990   25.8456 O   0  0  0  0  0  0
+   32.0423   21.7492   23.8721 H   0  0  0  0  0  0
+   28.7293   26.4308   21.7659 H   0  0  0  0  0  0
+   32.3818   27.4887   24.9876 H   0  0  0  0  0  0
+   32.0796   25.6278   26.3483 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+173.48390816,122.83037525,-60.14165176,-175.00236972,-147.50553834
+
+>  <CHROM.1>
+73.46417339,140.62204379,-75.34084114,-178.65146264,-176.90581508,31.40024993
+25.13414492,23.66973114,0.48937304,1.05761765,-2.84703807
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+9.1607
+
+>  <SCORE.INTER>
+10.483
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-2.87655
+
+>  <SCORE.INTER.REPUL>
+0.347687
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+12.1249
+
+>  <SCORE.INTER.norm>
+1.0483
+
+>  <SCORE.INTRA>
+0.71483
+
+>  <SCORE.INTRA.DIHEDRAL>
+1.22313
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.103267
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.071483
+
+>  <SCORE.RESTR>
+3.20232
+
+>  <SCORE.RESTR.CAVITY>
+3.20232
+
+>  <SCORE.RESTR.norm>
+0.320232
+
+>  <SCORE.SYSTEM>
+-5.23949
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+7.94362
+
+>  <SCORE.SYSTEM.POLAR>
+-2.97141
+
+>  <SCORE.SYSTEM.VDW>
+0.891492
+
+>  <SCORE.SYSTEM.norm>
+-0.523949
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.91607
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   19.7562   32.8346   18.1910 C   0  0  0  0  0  0
+   19.5597   33.7637   19.2265 O   0  0  0  0  0  0
+   19.3478   33.3730   16.9491 O   0  0  0  0  0  0
+   20.3493   33.0679   16.0011 C   0  0  0  0  0  0
+   19.7104   32.5095   14.7233 C   0  0  0  0  0  0
+   19.3924   33.5508   13.8402 O   0  0  0  0  0  0
+   21.3328   32.0802   16.6231 C   0  0  0  0  0  0
+   22.6335   32.2887   16.1362 O   0  0  0  0  0  0
+   21.2114   32.3863   18.0951 C   0  0  0  0  0  0
+   22.0771   33.4321   18.4650 O   0  0  0  0  0  0
+   18.5880   33.9652   19.2638 H   0  0  0  0  0  0
+   18.9658   33.1313   13.0478 H   0  0  0  0  0  0
+   22.6369   31.9629   15.1985 H   0  0  0  0  0  0
+   23.0014   33.0790   18.3857 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-60.25834643,-75.89809145,-58.25340299,-176.04169785,-61.20372341
+
+>  <CHROM.1>
+60.96289441,88.83056429,-178.68910641,-72.33961715,179.77566448,20.54496817
+32.96375474,16.81128434,1.32912293,-0.30999966,1.45260826
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+10.9661
+
+>  <SCORE.INTER>
+21.6414
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.525979
+
+>  <SCORE.INTER.REPUL>
+0.0644007
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+16.7078
+
+>  <SCORE.INTER.norm>
+2.16414
+
+>  <SCORE.INTRA>
+-0.697284
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.48558
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.0455083
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.0697284
+
+>  <SCORE.RESTR>
+0.0885912
+
+>  <SCORE.RESTR.CAVITY>
+0.0885912
+
+>  <SCORE.RESTR.norm>
+0.00885912
+
+>  <SCORE.SYSTEM>
+-10.0666
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.675689
+
+>  <SCORE.SYSTEM.POLAR>
+-2.9673
+
+>  <SCORE.SYSTEM.VDW>
+-0.315659
+
+>  <SCORE.SYSTEM.norm>
+-1.00666
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+1.09661
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.7352   23.8627   23.7398 C   0  0  0  0  0  0
+   31.3093   22.9487   24.7181 O   0  0  0  0  0  0
+   30.7136   24.0942   22.7902 O   0  0  0  0  0  0
+   30.6451   25.4872   22.5675 C   0  0  0  0  0  0
+   30.5956   25.7767   21.0621 C   0  0  0  0  0  0
+   29.6796   26.8029   20.7912 O   0  0  0  0  0  0
+   31.8453   26.1532   23.2351 C   0  0  0  0  0  0
+   31.5138   27.4333   23.7081 O   0  0  0  0  0  0
+   32.1697   25.1914   24.3509 C   0  0  0  0  0  0
+   31.4110   25.4795   25.5004 O   0  0  0  0  0  0
+   30.4713   23.3061   25.1132 H   0  0  0  0  0  0
+   29.5749   26.8373   19.8044 H   0  0  0  0  0  0
+   32.3474   27.9709   23.6685 H   0  0  0  0  0  0
+   31.7554   26.3373   25.8621 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+175.18088805,131.96513693,-176.30595819,-73.25532508,-59.67395752
+
+>  <CHROM.1>
+-55.32312962,139.01524751,-170.44625582,-150.31419195,178.52520408,31.13121901
+25.35009876,23.26683588,0.77523688,1.14953004,2.92239968
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+25.0642
+
+>  <SCORE.INTER>
+28.412
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-3.2269
+
+>  <SCORE.INTER.REPUL>
+0.317199
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+31.3974
+
+>  <SCORE.INTER.norm>
+2.8412
+
+>  <SCORE.INTRA>
+1.66528
+
+>  <SCORE.INTRA.DIHEDRAL>
+3.39411
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+-0.031778
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.166528
+
+>  <SCORE.RESTR>
+1.38159
+
+>  <SCORE.RESTR.CAVITY>
+1.38159
+
+>  <SCORE.RESTR.norm>
+0.138159
+
+>  <SCORE.SYSTEM>
+-6.39463
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+7.79784
+
+>  <SCORE.SYSTEM.POLAR>
+-2.90512
+
+>  <SCORE.SYSTEM.REPUL>
+0.0441155
+
+>  <SCORE.SYSTEM.VDW>
+-0.636737
+
+>  <SCORE.SYSTEM.norm>
+-0.639463
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+2.50642
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.6977   26.7775   24.6181 C   0  0  0  0  0  0
+   32.8441   27.3305   25.2132 O   0  0  0  0  0  0
+   31.5618   27.2208   23.2824 O   0  0  0  0  0  0
+   31.2401   26.0969   22.4899 C   0  0  0  0  0  0
+   30.0653   26.4280   21.5610 C   0  0  0  0  0  0
+   29.2461   27.4081   22.1387 O   0  0  0  0  0  0
+   30.9237   24.9197   23.4086 C   0  0  0  0  0  0
+   31.3186   23.7044   22.8260 O   0  0  0  0  0  0
+   31.7195   25.2522   24.6461 C   0  0  0  0  0  0
+   33.0386   24.7738   24.5402 O   0  0  0  0  0  0
+   33.6232   27.0686   24.6559 H   0  0  0  0  0  0
+   28.3311   27.2598   21.7827 H   0  0  0  0  0  0
+   31.1994   23.8118   21.8463 H   0  0  0  0  0  0
+   32.9851   23.7828   24.5596 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+173.01093237,-98.51560754,-58.94236649,-168.08302010,56.85002990
+
+>  <CHROM.1>
+-57.59492963,-28.47839928,-151.72346442,-32.64352283,-179.71493560,31.38482183
+25.98997742,23.46523484,-0.09894234,-0.80542527,0.22447542
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+33.4414
+
+>  <SCORE.INTER>
+35.9158
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-2.23589
+
+>  <SCORE.INTER.REPUL>
+0.226418
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+35.9857
+
+>  <SCORE.INTER.norm>
+3.59158
+
+>  <SCORE.INTRA>
+3.05493
+
+>  <SCORE.INTRA.DIHEDRAL>
+4.47929
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.815286
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.305493
+
+>  <SCORE.RESTR>
+3.27691
+
+>  <SCORE.RESTR.CAVITY>
+3.27691
+
+>  <SCORE.RESTR.norm>
+0.327691
+
+>  <SCORE.SYSTEM>
+-8.80625
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+3.13826
+
+>  <SCORE.SYSTEM.POLAR>
+-2.91576
+
+>  <SCORE.SYSTEM.VDW>
+-0.461808
+
+>  <SCORE.SYSTEM.norm>
+-0.880625
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+3.34414
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.7421   25.8887   24.8062 C   0  0  0  0  0  0
+   32.9738   26.3171   25.3292 O   0  0  0  0  0  0
+   31.7343   25.9864   23.3958 O   0  0  0  0  0  0
+   31.1786   24.7914   22.8878 C   0  0  0  0  0  0
+   30.1267   25.1139   21.8191 C   0  0  0  0  0  0
+   30.2673   26.4372   21.3781 O   0  0  0  0  0  0
+   30.5862   23.9919   24.0452 C   0  0  0  0  0  0
+   30.7037   22.6111   23.8172 O   0  0  0  0  0  0
+   31.4151   24.4562   25.2168 C   0  0  0  0  0  0
+   32.5919   23.6939   25.3346 O   0  0  0  0  0  0
+   32.8706   26.3834   26.3146 H   0  0  0  0  0  0
+   29.6341   26.5537   20.6221 H   0  0  0  0  0  0
+   30.1251   22.1661   24.4900 H   0  0  0  0  0  0
+   33.0476   23.7345   24.4536 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.62256868,-81.08988607,-177.89042375,-172.24221719,58.01022176
+
+>  <CHROM.1>
+170.04254039,16.44742020,173.72700937,-167.36216795,-57.87053642,31.35820624
+24.93211065,23.79891795,-0.67152903,-0.92940876,-0.47317819
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+0.0498438
+
+>  <SCORE.INTER>
+4.92525
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-3.51747
+
+>  <SCORE.INTER.REPUL>
+0.40997
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+8.43481
+
+>  <SCORE.INTER.norm>
+0.492525
+
+>  <SCORE.INTRA>
+1.4227
+
+>  <SCORE.INTRA.DIHEDRAL>
+1.11519
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.865099
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.14227
+
+>  <SCORE.RESTR>
+3.97708
+
+>  <SCORE.RESTR.CAVITY>
+3.97708
+
+>  <SCORE.RESTR.norm>
+0.397708
+
+>  <SCORE.SYSTEM>
+-10.2752
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.43018
+
+>  <SCORE.SYSTEM.POLAR>
+-3.02724
+
+>  <SCORE.SYSTEM.VDW>
+-0.69765
+
+>  <SCORE.SYSTEM.norm>
+-1.02752
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+0.00498438
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   21.8480   23.3079   24.2415 C   0  0  0  0  0  0
+   22.5564   24.4871   24.5270 O   0  0  0  0  0  0
+   21.1109   23.4426   23.0426 O   0  0  0  0  0  0
+   21.3090   22.2673   22.2848 C   0  0  0  0  0  0
+   19.9644   21.7461   21.7625 C   0  0  0  0  0  0
+   19.3769   22.6844   20.9024 O   0  0  0  0  0  0
+   22.0200   21.2337   23.1544 C   0  0  0  0  0  0
+   22.8736   20.4274   22.3841 O   0  0  0  0  0  0
+   22.7721   22.0985   24.1351 C   0  0  0  0  0  0
+   24.0243   22.4763   23.6163 O   0  0  0  0  0  0
+   23.0996   24.7081   23.7256 H   0  0  0  0  0  0
+   18.5183   22.2909   20.5961 H   0  0  0  0  0  0
+   23.2703   19.7643   23.0074 H   0  0  0  0  0  0
+   24.4716   23.0189   24.3169 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+173.15136943,-76.46037658,-176.09492939,171.82706222,56.88410298
+
+>  <CHROM.1>
+-53.83041924,62.53113049,179.73762693,-177.92596698,69.72562535,21.80836388
+22.44182542,22.98323280,0.47282896,-0.54029011,0.50815431
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-22.5548
+
+>  <SCORE.INTER>
+-10.5061
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-2.90454
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-7.0307
+
+>  <SCORE.INTER.norm>
+-1.05061
+
+>  <SCORE.INTRA>
+-1.88821
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.01307
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.118329
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.188821
+
+>  <SCORE.RESTR>
+0.183436
+
+>  <SCORE.RESTR.CAVITY>
+0.183436
+
+>  <SCORE.RESTR.norm>
+0.0183436
+
+>  <SCORE.SYSTEM>
+-10.3439
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.05378
+
+>  <SCORE.SYSTEM.POLAR>
+-2.99273
+
+>  <SCORE.SYSTEM.VDW>
+-0.695538
+
+>  <SCORE.SYSTEM.norm>
+-1.03439
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-2.25548
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.7230   26.8423   24.2237 C   0  0  0  0  0  0
+   32.8820   27.6105   24.4259 O   0  0  0  0  0  0
+   31.2842   26.9387   22.8831 O   0  0  0  0  0  0
+   30.9633   25.6353   22.4439 C   0  0  0  0  0  0
+   29.6029   25.6398   21.7354 C   0  0  0  0  0  0
+   29.1704   26.9550   21.5153 O   0  0  0  0  0  0
+   30.9756   24.6930   23.6446 C   0  0  0  0  0  0
+   31.4036   23.4080   23.2735 O   0  0  0  0  0  0
+   31.9413   25.3752   24.5813 C   0  0  0  0  0  0
+   33.2665   24.9903   24.3062 O   0  0  0  0  0  0
+   33.1144   27.5487   25.3893 H   0  0  0  0  0  0
+   28.3305   26.8938   20.9892 H   0  0  0  0  0  0
+   31.3836   22.8570   24.0990 H   0  0  0  0  0  0
+   33.3459   24.0354   24.5651 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-61.37782494,-112.25308728,-179.34227903,-170.36962081,-145.16640118
+
+>  <CHROM.1>
+176.80616304,10.27983266,175.26958474,-179.88813728,179.55585245,31.34351961
+25.81195815,23.30280444,-0.15718715,-0.70406760,-0.01821133
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+18.7205
+
+>  <SCORE.INTER>
+21.0657
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-3.20953
+
+>  <SCORE.INTER.REPUL>
+0.630983
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+22.4232
+
+>  <SCORE.INTER.norm>
+2.10657
+
+>  <SCORE.INTRA>
+0.842436
+
+>  <SCORE.INTRA.DIHEDRAL>
+0.395285
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.644793
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.0842436
+
+>  <SCORE.RESTR>
+2.26869
+
+>  <SCORE.RESTR.CAVITY>
+2.26869
+
+>  <SCORE.RESTR.norm>
+0.226869
+
+>  <SCORE.SYSTEM>
+-5.45639
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+8.16454
+
+>  <SCORE.SYSTEM.POLAR>
+-3.1114
+
+>  <SCORE.SYSTEM.VDW>
+1.04009
+
+>  <SCORE.SYSTEM.norm>
+-0.545639
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+1.87205
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   18.0732   32.6899   15.9955 C   0  0  0  0  0  0
+   17.4866   31.7032   15.1854 O   0  0  0  0  0  0
+   17.7238   32.4988   17.3521 O   0  0  0  0  0  0
+   18.8985   32.6504   18.1214 C   0  0  0  0  0  0
+   18.6263   33.5668   19.3209 C   0  0  0  0  0  0
+   19.8307   33.9440   19.9314 O   0  0  0  0  0  0
+   20.0066   33.1995   17.2267 C   0  0  0  0  0  0
+   21.2620   32.7060   17.6175 O   0  0  0  0  0  0
+   19.5929   32.7091   15.8615 C   0  0  0  0  0  0
+   20.0852   31.4130   15.6215 O   0  0  0  0  0  0
+   16.5020   31.7828   15.2869 H   0  0  0  0  0  0
+   20.1961   33.1297   20.3665 H   0  0  0  0  0  0
+   21.3991   33.0010   18.5554 H   0  0  0  0  0  0
+   20.9694   31.5202   15.1831 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+175.00987071,163.57196109,61.03384294,-177.71589715,57.79231103
+
+>  <CHROM.1>
+60.56394603,-167.95888817,-69.63251400,-59.97780230,157.14610204,19.18315219
+32.67912367,17.23269845,1.87653917,0.01628612,-1.98432947
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-12.5121
+
+>  <SCORE.INTER>
+-2.73469
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-1.81448
+
+>  <SCORE.INTER.REPUL>
+0.0172309
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-3.05161
+
+>  <SCORE.INTER.norm>
+-0.273469
+
+>  <SCORE.INTRA>
+-0.692347
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.57352
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.0730567
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.342808
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.0692347
+
+>  <SCORE.RESTR>
+0.960249
+
+>  <SCORE.RESTR.CAVITY>
+0.960249
+
+>  <SCORE.RESTR.norm>
+0.0960249
+
+>  <SCORE.SYSTEM>
+-10.0453
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.825893
+
+>  <SCORE.SYSTEM.POLAR>
+-2.87648
+
+>  <SCORE.SYSTEM.VDW>
+-0.678199
+
+>  <SCORE.SYSTEM.norm>
+-1.00453
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.25121
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   22.3809   32.3644   25.1535 C   0  0  0  0  0  0
+   20.9977   32.4618   24.9269 O   0  0  0  0  0  0
+   22.8028   33.3229   26.1033 O   0  0  0  0  0  0
+   23.6649   32.6720   27.0133 C   0  0  0  0  0  0
+   24.9290   33.5126   27.2323 C   0  0  0  0  0  0
+   25.5536   33.7851   26.0071 O   0  0  0  0  0  0
+   23.9929   31.2822   26.4740 C   0  0  0  0  0  0
+   24.1658   30.3625   27.5211 O   0  0  0  0  0  0
+   22.7851   30.9710   25.6258 C   0  0  0  0  0  0
+   21.7613   30.3941   26.3997 O   0  0  0  0  0  0
+   20.7506   31.7435   24.2872 H   0  0  0  0  0  0
+   24.9191   34.3394   25.4817 H   0  0  0  0  0  0
+   23.2714   30.2351   27.9324 H   0  0  0  0  0  0
+   20.9950   30.2376   25.7884 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-59.90602387,43.07760120,-57.89358798,-174.14371868,-59.88009633
+
+>  <CHROM.1>
+-177.49278503,-55.38177176,63.82068843,68.74521012,66.86134319,23.26775719
+32.10480254,26.23693960,2.78111982,0.47628713,2.74310078
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-15.0576
+
+>  <SCORE.INTER>
+-3.23283
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-1.23842
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-5.4222
+
+>  <SCORE.INTER.norm>
+-0.323283
+
+>  <SCORE.INTRA>
+-1.98901
+
+>  <SCORE.INTRA.DIHEDRAL>
+-3.91756
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.17925
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.579223
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.198901
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-9.83575
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.776988
+
+>  <SCORE.SYSTEM.POLAR>
+-2.92187
+
+>  <SCORE.SYSTEM.VDW>
+-0.289892
+
+>  <SCORE.SYSTEM.norm>
+-0.983575
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.50576
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   23.4582   19.8921   22.9572 C   0  0  0  0  0  0
+   24.3311   19.2963   22.0314 O   0  0  0  0  0  0
+   23.7980   21.2484   23.1668 O   0  0  0  0  0  0
+   22.6016   21.9985   23.1352 C   0  0  0  0  0  0
+   22.5570   22.9666   24.3240 C   0  0  0  0  0  0
+   22.0074   24.1958   23.9334 O   0  0  0  0  0  0
+   21.4162   21.0368   23.1407 C   0  0  0  0  0  0
+   20.3406   21.5573   22.4029 O   0  0  0  0  0  0
+   22.0022   19.7976   22.5112 C   0  0  0  0  0  0
+   21.9094   19.8534   21.1083 O   0  0  0  0  0  0
+   25.2498   19.3675   22.4017 H   0  0  0  0  0  0
+   22.6732   24.6283   23.3372 H   0  0  0  0  0  0
+   20.0723   22.3993   22.8552 H   0  0  0  0  0  0
+   22.5501   19.1836   20.7530 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-63.37620943,-77.48478966,179.10760546,164.14596113,-61.82282786
+
+>  <CHROM.1>
+59.52692108,141.01380195,-69.81136556,-61.71962319,50.45993611,22.45163917
+21.20647253,22.83251843,-1.26279460,-0.26196304,0.52447393
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-15.2193
+
+>  <SCORE.INTER>
+-5.68047
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-1.71484
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-6.25001
+
+>  <SCORE.INTER.norm>
+-0.568047
+
+>  <SCORE.INTRA>
+-0.000385133
+
+>  <SCORE.INTRA.DIHEDRAL>
+0.0612998
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.109676
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.341864
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-3.85133e-05
+
+>  <SCORE.RESTR>
+0.221599
+
+>  <SCORE.RESTR.CAVITY>
+0.221599
+
+>  <SCORE.RESTR.norm>
+0.0221599
+
+>  <SCORE.SYSTEM>
+-9.76003
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.13237
+
+>  <SCORE.SYSTEM.POLAR>
+-2.99257
+
+>  <SCORE.SYSTEM.VDW>
+-0.151466
+
+>  <SCORE.SYSTEM.norm>
+-0.976003
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.52193
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   31.9215   26.7519   24.1775 C   0  0  0  0  0  0
+   33.1503   27.4036   24.3765 O   0  0  0  0  0  0
+   31.5087   26.8591   22.8295 O   0  0  0  0  0  0
+   31.0617   25.5845   22.4168 C   0  0  0  0  0  0
+   29.7163   25.7092   21.6911 C   0  0  0  0  0  0
+   29.2119   27.0113   21.8162 O   0  0  0  0  0  0
+   30.9658   24.6757   23.6394 C   0  0  0  0  0  0
+   31.2651   23.3452   23.3041 O   0  0  0  0  0  0
+   31.9860   25.2795   24.5721 C   0  0  0  0  0  0
+   33.2681   24.7558   24.3232 O   0  0  0  0  0  0
+   33.1570   28.2081   23.7944 H   0  0  0  0  0  0
+   28.3358   27.0228   21.3490 H   0  0  0  0  0  0
+   31.1873   22.8207   24.1433 H   0  0  0  0  0  0
+   33.2458   23.8028   24.6001 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.14794863,162.03433824,-58.65421544,-75.08097670,-146.09811661
+
+>  <CHROM.1>
+35.70886910,-8.89689784,-178.61377812,179.70042464,179.90764582,31.42357785
+25.74367643,23.30947623,-0.25425091,-0.65260201,-0.09459109
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+19.78
+
+>  <SCORE.INTER>
+20.4454
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-4.2639
+
+>  <SCORE.INTER.REPUL>
+0.118686
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+27.9492
+
+>  <SCORE.INTER.norm>
+2.04454
+
+>  <SCORE.INTRA>
+1.9257
+
+>  <SCORE.INTRA.DIHEDRAL>
+2.85565
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.497878
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.19257
+
+>  <SCORE.RESTR>
+2.4518
+
+>  <SCORE.RESTR.CAVITY>
+2.4518
+
+>  <SCORE.RESTR.norm>
+0.24518
+
+>  <SCORE.SYSTEM>
+-5.04287
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+9.84805
+
+>  <SCORE.SYSTEM.POLAR>
+-2.87841
+
+>  <SCORE.SYSTEM.REPUL>
+0.0436339
+
+>  <SCORE.SYSTEM.VDW>
+-0.39848
+
+>  <SCORE.SYSTEM.norm>
+-0.504287
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+1.978
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   23.9216   30.3918   27.4454 C   0  0  0  0  0  0
+   24.4854   31.0488   28.5520 O   0  0  0  0  0  0
+   22.6699   29.8265   27.7811 O   0  0  0  0  0  0
+   21.7691   30.1325   26.7373 C   0  0  0  0  0  0
+   20.9914   28.8751   26.3290 C   0  0  0  0  0  0
+   21.8664   27.8981   25.8339 O   0  0  0  0  0  0
+   22.5520   30.7216   25.5669 C   0  0  0  0  0  0
+   21.7873   31.6769   24.8778 O   0  0  0  0  0  0
+   23.7515   31.3273   26.2522 C   0  0  0  0  0  0
+   23.4756   32.6373   26.6854 O   0  0  0  0  0  0
+   24.6048   30.3724   29.2693 H   0  0  0  0  0  0
+   22.4504   27.6297   26.5908 H   0  0  0  0  0  0
+   22.3566   32.0087   24.1354 H   0  0  0  0  0  0
+   23.3913   33.1960   25.8693 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+169.51738916,-76.85318152,-58.49695294,-172.10241071,-62.00827106
+
+>  <CHROM.1>
+60.19460733,-62.42072136,65.00433839,-179.75314353,179.09082446,22.74097264
+30.46861441,26.61438280,-0.46087006,0.83398285,2.59950299
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-14.0125
+
+>  <SCORE.INTER>
+-1.48262
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.544542
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-6.03118
+
+>  <SCORE.INTER.norm>
+-0.148262
+
+>  <SCORE.INTRA>
+-2.16123
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.52084
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.0991916
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.216123
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-10.3686
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.35572
+
+>  <SCORE.SYSTEM.POLAR>
+-2.98862
+
+>  <SCORE.SYSTEM.VDW>
+-0.885177
+
+>  <SCORE.SYSTEM.norm>
+-1.03686
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.40125
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   32.8821   26.4920   24.4109 C   0  0  0  0  0  0
+   34.2556   26.7232   24.2261 O   0  0  0  0  0  0
+   32.1361   27.0042   23.3246 O   0  0  0  0  0  0
+   31.1873   26.0243   22.9580 C   0  0  0  0  0  0
+   29.8061   26.6687   22.7862 C   0  0  0  0  0  0
+   29.5402   26.9014   21.4295 O   0  0  0  0  0  0
+   31.1748   24.9280   24.0200 C   0  0  0  0  0  0
+   30.8969   23.6754   23.4491 O   0  0  0  0  0  0
+   32.5715   25.0083   24.5841 C   0  0  0  0  0  0
+   33.4646   24.2241   23.8309 O   0  0  0  0  0  0
+   34.5307   26.2358   23.4059 H   0  0  0  0  0  0
+   29.3263   26.0196   21.0264 H   0  0  0  0  0  0
+   30.0335   23.7721   22.9687 H   0  0  0  0  0  0
+   33.2243   23.2759   23.9999 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+173.69405061,-124.71628762,61.66240354,-168.59591517,-60.82601294
+
+>  <CHROM.1>
+-62.15363928,99.40635521,74.92655931,-55.97837540,178.83335715,31.80436900
+25.73991581,23.45483532,-0.32052991,-0.45385009,-0.23402139
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+36.4401
+
+>  <SCORE.INTER>
+42.0373
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-4.25409
+
+>  <SCORE.INTER.REPUL>
+0.358008
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+48.3112
+
+>  <SCORE.INTER.norm>
+4.20373
+
+>  <SCORE.INTRA>
+0.445729
+
+>  <SCORE.INTRA.DIHEDRAL>
+0.358162
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.266647
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.0445729
+
+>  <SCORE.RESTR>
+2.21735
+
+>  <SCORE.RESTR.CAVITY>
+2.21735
+
+>  <SCORE.RESTR.norm>
+0.221735
+
+>  <SCORE.SYSTEM>
+-8.26031
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+4.00528
+
+>  <SCORE.SYSTEM.POLAR>
+-2.93411
+
+>  <SCORE.SYSTEM.VDW>
+-0.286992
+
+>  <SCORE.SYSTEM.norm>
+-0.826031
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+3.64401
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   23.7546   30.7327   27.9901 C   0  0  0  0  0  0
+   24.9139   30.2431   28.6149 O   0  0  0  0  0  0
+   24.0181   31.0821   26.6457 O   0  0  0  0  0  0
+   22.9654   30.5685   25.8566 C   0  0  0  0  0  0
+   22.4621   31.6451   24.8869 C   0  0  0  0  0  0
+   22.0240   32.7737   25.5938 O   0  0  0  0  0  0
+   21.8555   30.0704   26.7785 C   0  0  0  0  0  0
+   21.1979   28.9607   26.2230 O   0  0  0  0  0  0
+   22.6115   29.7232   28.0367 C   0  0  0  0  0  0
+   23.1094   28.4084   27.9785 O   0  0  0  0  0  0
+   25.5886   30.9716   28.6007 H   0  0  0  0  0  0
+   21.7032   33.4260   24.9173 H   0  0  0  0  0  0
+   20.8096   29.2673   25.3624 H   0  0  0  0  0  0
+   23.8070   28.3360   28.6810 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+173.91168740,163.19666127,179.10117078,-172.11279769,-60.71915117
+
+>  <CHROM.1>
+61.36237303,-58.41983615,-179.37393373,-60.46309062,51.52704392,22.90668325
+30.41853077,26.86297875,-1.04290006,-0.62064694,-0.56468594
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-15.1595
+
+>  <SCORE.INTER>
+-2.99935
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.920951
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-6.26812
+
+>  <SCORE.INTER.norm>
+-0.299935
+
+>  <SCORE.INTRA>
+-2.16491
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.32246
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.0934679
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.314113
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.216491
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-9.9952
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.986985
+
+>  <SCORE.SYSTEM.POLAR>
+-2.87218
+
+>  <SCORE.SYSTEM.VDW>
+-0.723287
+
+>  <SCORE.SYSTEM.norm>
+-0.99952
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.51595
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   21.8146   30.2689   26.7922 C   0  0  0  0  0  0
+   21.3212   29.6925   27.9747 O   0  0  0  0  0  0
+   21.2106   31.5252   26.5559 O   0  0  0  0  0  0
+   22.2320   32.4276   26.1857 C   0  0  0  0  0  0
+   21.8072   33.2212   24.9438 C   0  0  0  0  0  0
+   21.5455   32.3532   23.8745 O   0  0  0  0  0  0
+   23.5197   31.6437   25.9461 C   0  0  0  0  0  0
+   24.6461   32.4011   26.3066 O   0  0  0  0  0  0
+   23.3309   30.4343   26.8275 C   0  0  0  0  0  0
+   23.7704   30.6934   28.1389 O   0  0  0  0  0  0
+   20.3424   29.5707   27.8593 H   0  0  0  0  0  0
+   20.8589   31.7100   24.1919 H   0  0  0  0  0  0
+   25.4391   31.8484   26.0806 H   0  0  0  0  0  0
+   24.7576   30.7880   28.0957 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-59.76987199,163.29210622,-59.48661582,-173.06443208,-62.33656484
+
+>  <CHROM.1>
+60.62484500,-59.24990970,55.97965058,-177.15677293,179.85917311,22.52180616
+31.45159941,26.37195254,1.38636269,0.25499733,2.28529261
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-11.7808
+
+>  <SCORE.INTER>
+0.0527403
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.326265
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-5.23796
+
+>  <SCORE.INTER.norm>
+0.00527403
+
+>  <SCORE.INTRA>
+-2.16454
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.54827
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.0113562
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.148205
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.216454
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+-9.66903
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0.800984
+
+>  <SCORE.SYSTEM.POLAR>
+-2.87167
+
+>  <SCORE.SYSTEM.VDW>
+-0.305837
+
+>  <SCORE.SYSTEM.norm>
+-0.966903
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.17808
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   18.2194   32.6514   15.9959 C   0  0  0  0  0  0
+   17.3452   31.6850   15.4709 O   0  0  0  0  0  0
+   18.1781   32.6510   17.4092 O   0  0  0  0  0  0
+   19.5101   32.7053   17.8756 C   0  0  0  0  0  0
+   19.6391   33.7676   18.9744 C   0  0  0  0  0  0
+   20.8989   33.6898   19.5845 O   0  0  0  0  0  0
+   20.4347   32.9931   16.6956 C   0  0  0  0  0  0
+   21.6783   32.3626   16.8633 O   0  0  0  0  0  0
+   19.6562   32.4339   15.5309 C   0  0  0  0  0  0
+   19.9195   31.0621   15.3614 O   0  0  0  0  0  0
+   16.4292   31.9162   15.7768 H   0  0  0  0  0  0
+   21.5523   34.0623   18.9362 H   0  0  0  0  0  0
+   22.1583   32.8729   17.5666 H   0  0  0  0  0  0
+   20.7752   30.9952   14.8627 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.70084454,-76.82429282,61.66787359,-171.42662665,-144.40781205
+
+>  <CHROM.1>
+60.37742463,170.98208791,73.67182105,-73.16496873,166.93891900,19.57241269
+32.57350571,16.98066487,2.12093781,0.04023753,-2.06474905
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-10.1074
+
+>  <SCORE.INTER>
+-2.54104
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-2.96478
+
+>  <SCORE.INTER.REPUL>
+0.0528505
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+0.874967
+
+>  <SCORE.INTER.norm>
+-0.254104
+
+>  <SCORE.INTRA>
+-0.634316
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.93813
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.334749
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.0634316
+
+>  <SCORE.RESTR>
+0.372203
+
+>  <SCORE.RESTR.CAVITY>
+0.372203
+
+>  <SCORE.RESTR.norm>
+0.0372203
+
+>  <SCORE.SYSTEM>
+-7.30423
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+5.72562
+
+>  <SCORE.SYSTEM.POLAR>
+-2.98844
+
+>  <SCORE.SYSTEM.VDW>
+-0.00635824
+
+>  <SCORE.SYSTEM.norm>
+-0.730423
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.01074
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   27.1680   38.1508   19.8011 C   0  0  0  0  0  0
+   28.1841   38.0672   18.8343 O   0  0  0  0  0  0
+   26.4874   36.9175   19.9222 O   0  0  0  0  0  0
+   26.3372   36.6459   21.3000 C   0  0  0  0  0  0
+   24.8949   36.2165   21.5966 C   0  0  0  0  0  0
+   24.6015   35.0079   20.9496 O   0  0  0  0  0  0
+   26.7352   37.8874   22.0938 C   0  0  0  0  0  0
+   27.3179   37.5357   23.3222 O   0  0  0  0  0  0
+   27.7110   38.5661   21.1651 C   0  0  0  0  0  0
+   29.0137   38.0681   21.3521 O   0  0  0  0  0  0
+   27.7744   37.7093   18.0036 H   0  0  0  0  0  0
+   23.6618   34.7835   21.1789 H   0  0  0  0  0  0
+   26.6206   37.0481   23.8335 H   0  0  0  0  0  0
+   29.3064   38.3657   22.2527 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+172.81302769,-75.82362172,62.32043924,-171.81246234,-62.05239591
+
+>  <CHROM.1>
+52.14574816,64.31109806,179.94428029,-62.29761737,-179.68307321,26.85927190
+37.27159457,21.02944297,0.18500162,-0.65370320,-1.59483557
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-17.4847
+
+>  <SCORE.INTER>
+-5.14055
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-0.774004
+
+>  <SCORE.INTER.REPUL>
+0.213828
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-9.97808
+
+>  <SCORE.INTER.norm>
+-0.514055
+
+>  <SCORE.INTRA>
+-1.99658
+
+>  <SCORE.INTRA.DIHEDRAL>
+-4.28053
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.143689
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.199658
+
+>  <SCORE.RESTR>
+0.0219552
+
+>  <SCORE.RESTR.CAVITY>
+0.0219552
+
+>  <SCORE.RESTR.norm>
+0.00219552
+
+>  <SCORE.SYSTEM>
+-10.3695
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.02454
+
+>  <SCORE.SYSTEM.POLAR>
+-2.96528
+
+>  <SCORE.SYSTEM.VDW>
+-0.799808
+
+>  <SCORE.SYSTEM.norm>
+-1.03695
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.74847
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   29.2517   27.0528   22.4671 C   0  0  0  0  0  0
+   27.9239   27.5061   22.5407 O   0  0  0  0  0  0
+   29.4151   25.8557   23.2014 O   0  0  0  0  0  0
+   30.1679   24.9650   22.4046 C   0  0  0  0  0  0
+   31.2923   24.3371   23.2377 C   0  0  0  0  0  0
+   30.9333   23.0460   23.6496 O   0  0  0  0  0  0
+   30.7112   25.7230   21.1963 C   0  0  0  0  0  0
+   30.7899   24.8877   20.0701 O   0  0  0  0  0  0
+   29.6990   26.8282   21.0258 C   0  0  0  0  0  0
+   28.6176   26.4027   20.2324 O   0  0  0  0  0  0
+   27.8747   28.3625   22.0405 H   0  0  0  0  0  0
+   30.0991   23.1386   24.1802 H   0  0  0  0  0  0
+   31.3761   24.1283   20.3253 H   0  0  0  0  0  0
+   27.9331   27.1204   20.2742 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-59.89794430,12.83427153,-58.24011073,-175.00715585,-60.26089581
+
+>  <CHROM.1>
+177.83430418,100.40116776,-58.90509288,-57.99201447,59.90512945,29.84047674
+25.64028405,21.99654863,2.56039321,0.86836850,-1.32196686
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+103.703
+
+>  <SCORE.INTER>
+110.755
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-3.85371
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+117.458
+
+>  <SCORE.INTER.norm>
+11.0755
+
+>  <SCORE.INTRA>
+0.2107
+
+>  <SCORE.INTRA.DIHEDRAL>
+-0.624868
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.523134
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+0.02107
+
+>  <SCORE.RESTR>
+0.862869
+
+>  <SCORE.RESTR.CAVITY>
+0.862869
+
+>  <SCORE.RESTR.norm>
+0.0862869
+
+>  <SCORE.SYSTEM>
+-8.12536
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+3.30527
+
+>  <SCORE.SYSTEM.POLAR>
+-2.94118
+
+>  <SCORE.SYSTEM.VDW>
+0.22203
+
+>  <SCORE.SYSTEM.norm>
+-0.812536
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+10.3703
+
+$$$$
+
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   37.9623   23.1883   22.0607 C   0  0  0  0  0  0
+   37.9375   22.1986   23.0576 O   0  0  0  0  0  0
+   37.2644   22.7583   20.9088 O   0  0  0  0  0  0
+   36.4446   23.8264   20.4824 C   0  0  0  0  0  0
+   36.5960   24.0336   18.9702 C   0  0  0  0  0  0
+   37.9510   24.0404   18.6107 O   0  0  0  0  0  0
+   36.8196   25.0802   21.2681 C   0  0  0  0  0  0
+   35.6968   25.8961   21.4824 O   0  0  0  0  0  0
+   37.3693   24.5061   22.5501 C   0  0  0  0  0  0
+   36.3390   24.2709   23.4791 O   0  0  0  0  0  0
+   38.3781   21.3906   22.6845 H   0  0  0  0  0  0
+   38.3324   23.1786   18.9233 H   0  0  0  0  0  0
+   36.0137   26.6756   22.0092 H   0  0  0  0  0  0
+   35.5854   23.8683   22.9736 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  4  7  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  9 10  1  0  0  0
+  9  1  1  0  0  0
+  2 11  1  0  0  0
+  6 12  1  0  0  0
+  8 13  1  0  0  0
+ 10 14  1  0  0  0
+M  END
+>  <CHROM.0>
+-61.65390903,-79.57356317,62.11976075,-169.68137329,-60.35168290
+
+>  <CHROM.1>
+60.40373162,-47.09133493,56.95287100,178.96335969,-69.10919281,37.03611470
+23.96023414,21.30303508,-1.56483345,0.99707063,-1.42595647
+
+>  <Name>
+
+>  <RI>
+1.2474e+07
+
+>  <Rbt.Current_Directory>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_docking
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/j5wagner/env_00/source/rDock/rDock_2013.1_src//data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/extra/banzai2/j5wagner/CELPP/2016_10_17_rdock_implementation/normal_run/tutorialVideo/tutorial_rdock_implementation/full_week_run/4-docking/5m93/hiTanimoto_1cmx_tech_prep/rDockGridGenInput.prm
+
+>  <SCORE>
+-11.4303
+
+>  <SCORE.INTER>
+-1.67849
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+-1.32437
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+1
+
+>  <SCORE.INTER.VDW>
+-3.57563
+
+>  <SCORE.INTER.norm>
+-0.167849
+
+>  <SCORE.INTRA>
+-1.28634
+
+>  <SCORE.INTRA.DIHEDRAL>
+-3.66598
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+5.02738
+
+>  <SCORE.INTRA.POLAR>
+-0.0332113
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.659572
+
+>  <SCORE.INTRA.VDW.0>
+-0.709724
+
+>  <SCORE.INTRA.norm>
+-0.128634
+
+>  <SCORE.RESTR>
+1.48466
+
+>  <SCORE.RESTR.CAVITY>
+1.48466
+
+>  <SCORE.RESTR.norm>
+0.148466
+
+>  <SCORE.SYSTEM>
+-9.95016
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+1.11035
+
+>  <SCORE.SYSTEM.POLAR>
+-3.00612
+
+>  <SCORE.SYSTEM.VDW>
+-0.284527
+
+>  <SCORE.SYSTEM.norm>
+-0.995016
+
+>  <SCORE.heavy>
+10
+
+>  <SCORE.norm>
+-1.14303
+
+$$$$
