@@ -63,12 +63,12 @@ RECEPTOR_FLEX 3.0
 SECTION MAPPER
     SITE_MAPPER RbtSphereSiteMapper
     CENTER (!!!X!!!,!!!Y!!!,!!!Z!!!)
-    RADIUS 15.0
+    RADIUS 10.0
     SMALL_SPHERE 1.0
     MIN_VOLUME 100
     MAX_CAVITIES 1
     VOL_INCR 0.0
-    GRIDSTEP 0.5
+    GRIDSTEP 0.35
 END_SECTION
 
 #################################
