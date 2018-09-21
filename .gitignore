@@ -49,3 +49,10 @@ test_data/2-protein_prep
 test_data/3-ligand_prep
 test_data/4-docking
 test_data/5-pack_docking_results
+
+# Chimera binary
+chimera*.bin
+
+# vagrant
+.vagrant/
+
