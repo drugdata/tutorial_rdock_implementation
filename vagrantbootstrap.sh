@@ -9,7 +9,7 @@ yum install -y python-pip
 #yum install -y pylint python-coverage libXft mesa-* openbabel
 #yum install -y perl-Archive-Tar perl-List-MoreUtils xauth pymol
 
-pip install -y wheel
+pip install wheel
 
 #VERSION=2.5.0
 #wget https://github.com/singularityware/singularity/releases/download/$VERSION/singularity-$VERSION.tar.gz
