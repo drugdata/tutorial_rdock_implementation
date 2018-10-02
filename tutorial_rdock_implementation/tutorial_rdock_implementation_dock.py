@@ -146,9 +146,9 @@ END_SECTION
         commands.getoutput(dock_cmd)
 
         ######################################################################
-        ### $ sdsort  -numeric  -key  SCORE  -o  output_sorted.sd  output.sd
+        ### $ sdsort -n -fSCORE output.sd 1> output_sorted.sd
         ######################################################################
-        sort_cmd = 'sdsort  -numeric  -key  SCORE  -o  output_sorted.sd  output.sd 1> sdsort.stdout 2> sdsort.stderr'
+        sort_cmd = 'sdsort -n -fSCORE output.sd 1> output_sorted.sd 2> sdsort.stderr'
         commands.getoutput(sort_cmd)
         
         ######################################################################
