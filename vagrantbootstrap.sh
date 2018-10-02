@@ -3,7 +3,7 @@
 echo "Installing base packages"
 yum install -y git epel-release 
 yum install -y wget tar unzip zip gcc xauth squashfs-tools libarchive-devel
-yum install -y python-pip 
+yum install -y python-pip python-wheel
 # yum install -y python-argparse python-lockfile python-psutil
 #yum install -y python-biopython python-virtualenv python-tox
 #yum install -y pylint python-coverage libXft mesa-* openbabel
