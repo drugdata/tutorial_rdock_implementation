@@ -1,19 +1,19 @@
 #!/usr/bin/env python
 
-
 __author__ = 'j5wagner@ucsd.edu'
-
-from d3r.celppade.custom_protein_prep import ProteinPrep
 
 
 import commands
+from d3r.celppade.custom_protein_prep import ProteinPrep
+
 
 class chimera_dockprep(ProteinPrep):
     """Abstract class defining methods for a custom docking solution
     for CELPP
     """
 
-    OUTPUT_PROTEIN_SUFFIX = '.mol2'
+    ProteinPrep.OUTPUT_PROTEIN_SUFFIX = '.mol2'
+
         
     def receptor_scientific_prep(self, 
                                  protein_file, 
