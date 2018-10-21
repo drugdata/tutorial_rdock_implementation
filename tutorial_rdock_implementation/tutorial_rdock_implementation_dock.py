@@ -138,30 +138,34 @@ END_SECTION
         receptor_as = tech_prepped_receptor_list[0]
         grid_gen_input = tech_prepped_receptor_list[1]
         receptor_mol2 = tech_prepped_receptor_list[2]
+        # origdir = os.getcwd()
+        try:
+            # os.chdir(os.path.dirname(grid_gen_input))
+            ######################################################################
+            ### $ rbdock  -i  ligand.sdf  -o  output  -r  rDockGridGenInput.prm  -p  dock.prm  -n  50
+            ######################################################################
+            dock_cmd = 'rbdock  -i  ' + ligand_sdf + '  -o  output  -r  ' + os.path.basename(grid_gen_input) + ' -p  dock.prm  -n  50  1>  dock.stdout  2>  dock.stderr'
+            commands.getoutput(dock_cmd)
 
-        ######################################################################
-        ### $ rbdock  -i  ligand.sdf  -o  output  -r  rDockGridGenInput.prm  -p  dock.prm  -n  50
-        ######################################################################
-        dock_cmd = 'rbdock  -i  ' + ligand_sdf + '  -o  output  -r  ' + grid_gen_input + ' -p  dock.prm  -n  50  1>  dock.stdout  2>  dock.stderr'
-        commands.getoutput(dock_cmd)
-
-        ######################################################################
-        ### $ sdsort -n -fSCORE output.sd 1> output_sorted.sd
-        ######################################################################
-        sort_cmd = 'sdsort -n -fSCORE output.sd 1> output_sorted.sd 2> sdsort.stderr'
-        commands.getoutput(sort_cmd)
+            ######################################################################
+            ### $ sdsort -n -fSCORE output.sd 1> output_sorted.sd
+            ######################################################################
+            sort_cmd = 'sdsort -n -fSCORE output.sd 1> output_sorted.sd 2> sdsort.stderr'
+            commands.getoutput(sort_cmd)
         
-        ######################################################################
-        ### $ babel  -l  1  -isdf  best_ligand_pose.sd  -omol  docked_ligand.mol
-        ######################################################################
-        lig_babel_cmd = 'babel  -l  1  -isdf  output_sorted.sd  -omol ' + output_lig_mol + ' 1> lig_babel.stdout 2> lig_babel.stderr'
-        commands.getoutput(lig_babel_cmd)
+            ######################################################################
+            ### $ babel  -l  1  -isdf  best_ligand_pose.sd  -omol  docked_ligand.mol
+            ######################################################################
+            lig_babel_cmd = 'babel  -l  1  -isdf  output_sorted.sd  -omol ' + output_lig_mol + ' 1> lig_babel.stdout 2> lig_babel.stderr'
+            commands.getoutput(lig_babel_cmd)
         
-        ######################################################################
-        ### $ babel -imol2  clean_receptor.mol2 -opdb  docked_receptor.pdb ###
-        ######################################################################
-        receptor_babel_cmd = 'babel  -imol2 ' + receptor_mol2 + '  -opdb ' + output_receptor_pdb + ' 1> recep_babel.stdout 2> recep_babel.stderr'
-        commands.getoutput(receptor_babel_cmd)
+            ######################################################################
+            ### $ babel -imol2  clean_receptor.mol2 -opdb  docked_receptor.pdb ###
+            ######################################################################
+            receptor_babel_cmd = 'babel  -imol2 ' + receptor_mol2 + '  -opdb ' + output_receptor_pdb + ' 1> recep_babel.stdout 2> recep_babel.stderr'
+            commands.getoutput(receptor_babel_cmd)
+        finally:
+	    pass
 
         return True
 
