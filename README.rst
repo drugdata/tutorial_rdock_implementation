@@ -18,28 +18,73 @@ More information on CELPPade is available at the project homepage: https://githu
 Usage
 -----
 
-Installation
-------------
+.. code-block:: bash
 
-   python setup.py build
+   cd /tmp
+   # get challenge data
+   challdir="1-get_challenge_data/"
+   mkdir -p $challdir
+   singularity run getchallengedata.py --unpackdir $challdir -f ~/ftp.config
+
+   # protein prep
+   protdir="2-protein_prep/"
+   mkdir $protdir
+   singularity run tutorial_rdock_implementation_protein_prep.py --challengedata $challdir --prepdir $protdir
    
-   python setup.py bdist_wheel
+   # ligand prep
+   ligdir="3-ligand_prep/"
+   mkdir $ligdir
+   singularity run tutorial_rdock_implementation_ligand_prep.py --challengedata $challdir --prepdir $ligdir
 
-Requirements
-^^^^^^^^^^^^
-* pip
+   #dock
+   dockdir="4-docking/"
+   mkdir $dockdir
+   singularity run tutorial_rdock_implementation_dock.py --protsciprepdir $protdir --ligsciprepdir $ligdir --outdir $dockdir
 
-* wheel
+   #upload results
+   packdir="5-pack_docking_results"
+   mkdir $packdir
+   singularity run packdockingresults.py --dockdir $dockdir --packdir $packdir --challengedata $challdir -f ~/ftp.config
 
-* D3R https://github.com/drugdata/D3R
+Building the container
+----------------------
+
+Build Requirements
+^^^^^^^^^^^^^^^^^^
+
+* Vagrant https://www.vagrantup.com/
+
+* Virtual Box https://www.virtualbox.org/
+
+* Binary of 64-bit Linux distribution of Chimera (tested with version `1.13 <https://www.cgl.ucsf.edu/chimera/cgi-bin/secure/chimera-get.py?file=linux_x86_64/chimera-1.13-linux_x86_64.bin>`_) https://www.cgl.ucsf.edu/chimera
+
+The following commands spin up a `Virtual Box <https://www.virtualbox.org>`_ virtual machine via `Vagrant <https://www.vagrantup.com>`_ with `Singularity <https://www.sylabs.io>`_ installed. A `Makefile <https://www.gnu.org/software/make/manual/make.html>`_ is then used to create the `Singularity <https://www.sylabs.io>`_ Container runnable on any machine that can run `Singularity <https://www.sylabs.io>`_.
+
+
+.. code-block:: bash
+
+   git clone https://github.com/drugdata/tutorial_rdock_implementation.git
+   cd tutorial_rdock_implementation
+   #
+   # Be sure to download 64-bit Linux version of Chimera and put binary
+   # in source tree directory
+   #
+   vagrant up
+   vagrant ssh
+   cd /vagrant
+   make singularity
 
 Compatibility
 -------------
 
-Licence
+License
 -------
+
+See LICENSE.txt_
 
 Authors
 -------
 
 `tutorial_rdock_implementation` was written by `Jeff Wagner <j5wagner@ucsd.edu>`_.
+
+.. _LICENSE.txt: https://github.com/drugdata/tutorial_rdock_implementation/blob/master/LICENSE.txt
