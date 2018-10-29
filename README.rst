@@ -19,32 +19,36 @@ Usage
 -----
 
 .. code-block:: bash
-
-   cd /tmp
+   # This example assumes you have cloned and built the image
+   # as described in building container below and that
+   # you are in the tutorial_rdock_implementation directory
+   # and you have exited the vagrant VM
+   mkdir tmp
+   cd tmp
    # get challenge data
    challdir="1-get_challenge_data/"
    mkdir -p $challdir
-   singularity run getchallengedata.py --unpackdir $challdir -f ~/ftp.config
+   singularity run ../build/tutorialrdock.img getchallengedata.py --unpackdir $challdir -f ~/ftp.config
 
    # protein prep
    protdir="2-protein_prep/"
    mkdir $protdir
-   singularity run tutorial_rdock_implementation_protein_prep.py --challengedata $challdir --prepdir $protdir
+   singularity run ../build/tutorialrdock.img tutorial_rdock_implementation_protein_prep.py --challengedata $challdir --prepdir $protdir
    
    # ligand prep
    ligdir="3-ligand_prep/"
    mkdir $ligdir
-   singularity run tutorial_rdock_implementation_ligand_prep.py --challengedata $challdir --prepdir $ligdir
+   singularity run ../build/tutorialrdock.img tutorial_rdock_implementation_ligand_prep.py --challengedata $challdir --prepdir $ligdir
 
    #dock
    dockdir="4-docking/"
    mkdir $dockdir
-   singularity run tutorial_rdock_implementation_dock.py --protsciprepdir $protdir --ligsciprepdir $ligdir --outdir $dockdir
+   singularity run ../build/tutorialrdock.img tutorial_rdock_implementation_dock.py --protsciprepdir $protdir --ligsciprepdir $ligdir --outdir $dockdir
 
    #upload results
    packdir="5-pack_docking_results"
    mkdir $packdir
-   singularity run packdockingresults.py --dockdir $dockdir --packdir $packdir --challengedata $challdir -f ~/ftp.config
+   singularity run ../build/tutorialrdock.img packdockingresults.py --dockdir $dockdir --packdir $packdir --challengedata $challdir -f ~/ftp.config
 
 Building the container
 ----------------------
